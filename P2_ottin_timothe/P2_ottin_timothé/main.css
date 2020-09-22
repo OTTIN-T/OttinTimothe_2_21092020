@@ -1,0 +1,240 @@
+html{
+	font-size: 62.5%;
+	/*permet de donner 1rem=10px (contre 16px)*/
+}
+
+body{
+	max-width: 128rem;
+	margin: auto;
+	font-size: 1.5rem;
+	font-family: 'Raleway-Regular', Arial, "Arial Black", "Comic Sans MS","Times New Roman", "Trebuchet MS";
+}
+
+h1, h2, h3{
+	font-family: 'Raleway-ExtraBold', Arial, "Arial Black", "Comic Sans MS","Times New Roman", "Trebuchet MS";
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+ul{
+	list-style-type: none; 
+}
+
+/*Mise en place du header*/
+nav{
+	font-family: 'Raleway-SemiBold', Arial, "Arial Black", "Comic Sans MS","Times New Roman", "Trebuchet MS";
+	/*Permet d'ajuster la position logo*/
+	height: 0.5rem;
+}
+
+nav a{
+	/*Permet au border-top d'être collé au bord de la page*/
+	line-height: 6.5rem;
+}
+
+.logo{
+	/*Rend le logo plus maniable*/
+	display: flex;
+}
+
+.liste_menu{
+	/*Colle le menu à droite*/
+	display: flex;
+	list-style: none;
+  	justify-content: flex-end;
+}
+
+.liste_menu a{
+	/*Permet d'écarter les éléments du menu*/
+	padding: 3.6rem;
+}
+
+.liste_menu a:hover{
+	/*Effet aux survol du menu*/
+	color: #106ffc;
+	border-top: 0.2rem #0065FC solid;	
+}
+
+.inscription{
+	color: #0065FC;
+	font-family: 'Raleway-ExtraBold', Arial, "Arial Black", "Comic Sans MS","Times New Roman", "Trebuchet MS";
+}
+
+/*Section formulaire*/
+
+#formulaire{
+	margin-top: 4rem;
+}
+
+h1{
+	margin-bottom: -1rem;
+}
+
+h1 + p{
+	font-size: 1.68rem;
+}
+
+form{
+	margin-top: 3rem;
+}
+
+label{
+	/*Création du background de l'icon*/
+	background-color: #F2F2F2;
+    padding: 1.5rem 1.8rem 1.2rem 1.8rem;
+    border-radius: 1.5rem 0rem 0rem 1.5rem;
+}
+
+.fa-map-marker-alt{
+	font-size: 2rem;
+}
+
+
+#lieux{
+	font-family: 'Raleway-ExtraBold', Arial, "Arial Black", "Comic Sans MS","Times New Roman", "Trebuchet MS";
+	border: 0.1rem #F2F2F2 solid;
+    font-size: 2rem;
+    margin-left: -0.5rem;
+    padding: 0.92rem 0rem 0.97rem 1.8rem;
+}
+
+#lieux::placeholder{
+	/*Change la couleur d'écriture du placeholder*/
+	color: black;
+}
+
+.recherche{
+	color: white;
+	font-size: 2rem;
+	margin-left: -0.5rem;
+	background-color: #0065FC;
+    padding: 1.05rem 2rem 1.08rem 1.5rem;
+    border-radius: 0rem 1.5rem 1.5rem 0rem;
+    /*Pour faire disparaitre la bordure par défaut du input*/
+	border: 0.1rem white solid;
+}
+
+.recherche:hover{
+	color: #0065FC;
+	background-color: white;
+	border-color: #0065FC;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Appelle de la police Raleway*/
+@font-face{
+	font-family: 'Raleway';
+	src: url('Raleway/Raleway-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face{
+	font-family: 'RalewayItalic';
+	src: url('Raleway/Raleway-Italic-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face{
+	font-family: 'Raleway-Thin';
+	src: url('Raleway/static/Raleway-Thin.ttf') format('truetype');
+}
+
+@font-face{
+	font-family: 'Raleway-ExtraLight';
+	src: url('Raleway/static/Raleway-ExtraLight.ttf') format('truetype');
+}
+
+@font-face{
+	font-family: 'Raleway-Light';
+	src: url('Raleway/static/Raleway-Light.ttf') format('truetype');
+}
+
+@font-face{
+	font-family: 'Raleway-Regular';
+	src: url('Raleway/static/Raleway-Regular.ttf') format('truetype');
+}
+
+@font-face{
+	font-family: 'Raleway-Medium';
+	src: url('Raleway/static/Raleway-Medium.ttf') format('truetype');
+}
+
+@font-face{
+	font-family: 'Raleway-SemiBold';
+	src: url('Raleway/static/Raleway-SemiBold.ttf') format('truetype');
+}
+
+@font-face{
+	font-family: 'Raleway-Bold';
+	src: url('Raleway/static/Raleway-Bold.ttf') format('truetype');
+}
+
+@font-face{
+	font-family: 'Raleway-ExtraBold';
+	src: url('Raleway/static/Raleway-ExtraBold.ttf') format('truetype');
+}
+@font-face{
+	font-family: 'Raleway-Black';
+	src: url('Raleway/static/Raleway-Black.ttf') format('truetype');
+}
+
+@font-face{
+	font-family: 'Raleway-ThinItalic';
+	src: url('Raleway/static/Raleway-ThinItalic.ttf') format('truetype');
+}
+
+@font-face{
+	font-family: 'Raleway-ExtraLightItalic';
+	src: url('Raleway/static/Raleway-ExtraLightItalic.ttf') format('truetype');
+}
+@font-face{
+	font-family: 'Raleway-LightItalic';
+	src: url('Raleway/static/Raleway-LightItalic.ttf') format('truetype');
+}
+
+@font-face{
+	font-family: 'Raleway-Italic';
+	src: url('Raleway/static/Raleway-Italic.ttf') format('truetype');
+}
+
+@font-face{
+	font-family: 'Raleway-MediumItalic';
+	src: url('Raleway/static/Raleway-MediumItalic.ttf') format('truetype');
+}
+
+@font-face{
+	font-family: 'Raleway-SemiBoldItalic';
+	src: url('Raleway/static/Raleway-SemiBoldItalic.ttf') format('truetype');
+}
+@font-face{
+	font-family: 'Raleway-BoldItalic';
+	src: url('Raleway/static/Raleway-BoldItalic.ttf') format('truetype');
+}
+
+@font-face{
+	font-family: 'Raleway-ExtraBoldItalic';
+	src: url('Raleway/static/Raleway-ExtraBoldItalic.ttf') format('truetype');
+}
+
+@font-face{
+	font-family: 'Raleway-BlackItalic';
+	src: url('Raleway/static/Raleway-BlackItalic.ttf') format('truetype');
+}
