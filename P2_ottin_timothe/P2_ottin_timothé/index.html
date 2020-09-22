@@ -30,19 +30,19 @@
 </head>
 <body>
 	<!-- Menu du site -->
-	<header id="en_tete">
-		<a href="#" class="logo"><img src="Projet-2-Reservia/images/logo/reservia.svg" alt="logo"></a>
-		<nav class="menu">
+	<header>
+		<nav>
 			<ul class="liste_menu">
 				<li><a href="#galerie">Hébergements</a></li>
 				<li><a href="#activite">Activités</a></li>
 				<li><a href="#" class="inscription">S'inscrire</a></li>
 			</ul>
 		</nav>
+		<a href="#tete" class="logo"><img src="Projet-2-Reservia/images/logo/reservia.svg" alt="logo"></a>
 	</header>
 
 	<!-- Partie formulaire de recherche -->
-	<section>
+	<section id="formulaire">
 		<div>
 			<h1>Trouvez votre hébergement pour des vacances de rêve</h1>
 			<p>En plein centre ville ou en pleine nature</p>
@@ -50,7 +50,7 @@
 		<form method="post" action="traitement.php">
 			<p>
 				<label for="lieux"><i class="fas fa-map-marker-alt"></i></label>
-				<input type="text" name="lieux" placeholder="Marseille, France" id="lieux">
+				<input type="text" name="lieux" placeholder="Marseille, France" size="19" id="lieux">
 				<input type="submit" name="rechercher" value="Rechercher" class="recherche">
 			</p>
 		</form>
