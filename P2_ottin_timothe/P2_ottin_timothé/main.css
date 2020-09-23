@@ -169,13 +169,50 @@ label{
 	padding: 1.5rem 1.8rem 1.5rem 1.8rem;
 }
 
+.infos{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 34%;
+}
 
+.fa-info{
+	color: #0065FC;
+	border: 0.2rem #F2F2F2 solid;
+	padding: 0.8rem 1.2rem 0.8rem 1.2rem;
+	border-radius: 2.5rem;
+}
 
+/*Partie hébergements*/
+#galerie{
+	display: flex;
+	justify-content: space-around;
+}
 
+.hebergementsTitre{
+	background-color: #F2F2F2;
+	padding: 2rem;
+	border-radius: 4rem;
+	width: 60%;
+}
 
+.populaire{
+	background-color: #F2F2F2;
+	padding: 2rem;
+	border-radius: 4rem;
+	width: 30%;	
+}
 
+.hebergements{
+	display: flex;
+	align-content: flex-start;
+	flex-wrap: wrap;
+}
 
-
+#galerie figure img{
+	max-width: 20%;
+	flex-grow: 1;
+}
 
 
 
