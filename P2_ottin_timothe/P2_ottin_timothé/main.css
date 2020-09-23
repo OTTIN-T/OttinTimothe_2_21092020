@@ -10,7 +10,7 @@ body{
 	font-family: 'Raleway-Regular', Arial, "Arial Black", "Comic Sans MS","Times New Roman", "Trebuchet MS";
 }
 
-h1, h2, h3{
+h1, h2, h3, .elementFiltre, #lieux, .inscription{
 	font-family: 'Raleway-ExtraBold', Arial, "Arial Black", "Comic Sans MS","Times New Roman", "Trebuchet MS";
 }
 
@@ -60,7 +60,6 @@ nav a{
 
 .inscription{
 	color: #0065FC;
-	font-family: 'Raleway-ExtraBold', Arial, "Arial Black", "Comic Sans MS","Times New Roman", "Trebuchet MS";
 }
 
 /*Section formulaire*/
@@ -94,7 +93,6 @@ label{
 
 
 #lieux{
-	font-family: 'Raleway-ExtraBold', Arial, "Arial Black", "Comic Sans MS","Times New Roman", "Trebuchet MS";
 	border: 0.1rem #F2F2F2 solid;
     font-size: 2rem;
     margin-left: -0.5rem;
@@ -124,12 +122,52 @@ label{
 }
 
 
+/*Partie filtre*/
+#filtres{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/*Donne une limite au space-between*/
+	max-width: 70%;
+}
 
+.titreFiltre{
+	font-size: 2rem;
+}
 
+.elementFiltre{
+	font-size: 1.7rem;
+	border: 0.3rem #F2F2F2 solid;
+	border-radius: 2.5rem;
+	padding: 1.2rem 2rem 1.2rem 6rem;
+	/*Fait passer l'élément en dessous de l'icon*/
+	z-index: 1;
+}
 
+.elementFiltre:hover{
+	color: #0065FC;;
+	background: #DEEBFF;
+	/*Fait grossir l'élément*/
+	transform: scale(1.1);
+	transition: all 0.3s ease-out;
+}
 
+.fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog{
+	/*Crétion du backround des icons*/
+	color: #0065FC;
+	background-color: #DEEBFF;
+	padding: 1.5rem;
+	border-radius: 2.5rem;
+	font-size: 2rem;
+	margin-right: -6rem;
+	/*Fait passer l'icon par dessus l'élément*/
+	z-index: 2;
+}
 
-
+.fa-child{
+	/*child a besoin de padding différents*/
+	padding: 1.5rem 1.8rem 1.5rem 1.8rem;
+}
 
 
 
