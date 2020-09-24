@@ -173,6 +173,7 @@ label{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	/*Donne une limite au space-between*/
 	max-width: 34%;
 }
 
@@ -187,31 +188,89 @@ label{
 #galerie{
 	display: flex;
 	justify-content: space-around;
+	height: 60rem;
 }
 
 .hebergementsTitre{
 	background-color: #F2F2F2;
-	padding: 2rem;
-	border-radius: 4rem;
+	padding: 2rem 1rem 1rem 1rem;
+	border-radius: 2rem;
 	width: 60%;
+}
+.hebergementsTitre h2{
+	margin-left: 1.5rem;
 }
 
 .populaire{
 	background-color: #F2F2F2;
 	padding: 2rem;
-	border-radius: 4rem;
+	border-radius: 2rem;
 	width: 30%;	
+}
+
+.hebergements a{
+	width: 30%;
+	height: 21rem;
+	margin: 1rem;
 }
 
 .hebergements{
 	display: flex;
 	align-content: flex-start;
 	flex-wrap: wrap;
+	/*justify-content: center;*/
 }
 
-#galerie figure img{
-	max-width: 20%;
-	flex-grow: 1;
+.hebergements figure{
+	/*position: relative;*/
+	background-color: white;
+	padding: 0.6rem; 
+	border-radius: 2rem;
+	margin: auto;
+	width: 100%;
+	height: 100%;
+	box-shadow: 0rem 0rem 0.5rem grey;
+}
+
+.hebergements img{
+	width: 100%;
+	height: 16rem;
+	/*overflow: hidden;*/
+	border-radius: 2rem 2rem 0rem 0rem;
+}
+
+.hebergements figcaption{
+	position: absolute;
+	display: block;
+	background-color: white;
+	border-radius: 0rem 0rem 2rem 2rem;
+	margin-top: -4rem;
+	height: 8rem;
+	width: 24rem;
+	margin-left: -0.5rem;
+}
+
+.hebergements h3{
+	margin-top: 0.8rem;
+	margin-bottom: 0.3rem;
+	font-size: 1.7rem;
+    padding-left: 1.5rem;
+}
+
+.hebergements p{
+	margin-top: 0.2rem;
+    margin-bottom: 0rem;
+    padding-left: 1.5rem;
+
+}
+
+.fa-star{
+	color: #0065FC;
+	padding-top: 0.5rem;
+}
+
+.etoileGrise{
+	color: #e5e5e5;
 }
 
 
