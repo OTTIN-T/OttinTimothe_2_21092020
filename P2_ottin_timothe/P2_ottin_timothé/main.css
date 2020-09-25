@@ -203,15 +203,16 @@ label{
 	border-radius: 2rem;
 	width: 60%;
 }
+
 .hebergementsTitre h2{
 	margin-left: 1.5rem;
 }
 
-.populaire{
-	background-color: #F2F2F2;
-	padding: 2rem;
-	border-radius: 2rem;
-	width: 30%;	
+
+.hebergements{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: -2rem;
 }
 
 .hebergements a{
@@ -220,25 +221,21 @@ label{
 	margin: 2rem 1rem 0.5rem 2rem;
 }
 
-.hebergements{
-	display: flex;
-	flex-wrap: wrap;
-	margin-top: -2rem;
-}
 
 .hebergements figure{
 	margin: auto;
 	width: 100%;
+	box-shadow: 0rem 0.5rem 1rem #c3c1c1;
+    border-radius: 2rem 2rem 2rem 2rem;
+    border: 0.5rem white solid;
 }
 
 .hebergements img{
 	width: 100%;
 	height: 14rem;
 	border-radius: 2rem 2rem 0rem 0rem;
-	border: 0.5rem white solid;
 	/*définit la façon dont img doit s'adapter*/
 	object-fit: cover;
-	box-shadow: 0rem 1rem 1rem #c3c1c1;
 }
 
 /*Ajustement des photos*/
@@ -259,12 +256,9 @@ label{
 .hebergements figcaption{
 	position: relative;
 	background-color: white;
-	border-radius: 0rem 0rem 2rem 2rem;
 	margin-top: -4rem;
 	height: 6.5rem;
-	width: 104%;
-	padding: 0.1rem;
-	box-shadow: 0rem 0.1rem 1rem #c3c1c1;
+	width: 100%;
 }
 
 .hebergements h3{
@@ -272,6 +266,7 @@ label{
 	margin-bottom: 0.3rem;
 	font-size: 1.4rem;
     padding-left: 1.5rem;
+    padding-top: 1rem;
 }
 
 .hebergements p{
@@ -282,7 +277,7 @@ label{
 }
 
 .hebergements span{
-	font-size: 1.8rem;
+	font-size: 1.55rem;
 	margin: 3rem 0rem 0rem 1rem;
 }
 
@@ -294,6 +289,79 @@ label{
 .etoileGrise{
 	color: #e5e5e5;
 }
+
+/*--------------------------------------------------------------------------------------------*/
+/*Partie populaire*/
+/*--------------------------------------------------------------------------------------------*/
+.populaire{
+	background-color: #F2F2F2;
+	padding: 2rem;
+	border-radius: 2rem;
+	width: 30%;	
+	display: flex;
+	flex-direction: column;
+}
+
+.populaire h2{
+	margin-left: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 1.5rem;
+}
+
+.populaire a{
+	width: 55%;
+	height: auto;
+	margin-left: 1.5rem;
+}
+
+
+.populaire figure{
+    margin: 0rem 0rem 3rem 0rem;
+    width: 34rem;
+    height: 12rem;
+    border: 0.5rem white solid;
+    box-shadow: 0rem 0.5rem 1rem #c3c1c1;
+    border-radius: 2rem 2rem 2rem 2rem;
+}
+
+.populaire img{
+	width: 60%;
+	height: 12rem;
+	border-radius: 2rem 0rem 0rem 2rem;
+	/*définit la façon dont img doit s'adapter*/
+	object-fit: cover;
+	object-position: 0% 70%;
+}
+
+.populaire figcaption{
+	position: relative;
+	background-color: white;
+	margin: -13.8rem 0rem 2rem 13rem;
+	height: 12rem;
+	width: auto;
+}
+
+.populaire h3{
+	margin-bottom: -0.5rem;
+	font-size: 1.4rem;
+    padding-left: 1.5rem;
+    padding-top: 1rem;
+}
+
+.populaire p{
+    padding-left: 1.5rem;
+    font-size: 1.3rem;
+}
+
+.populaire .fa-star{
+	margin-top: 4rem;
+}
+
+.populaire .etoileCoeur{
+	margin-top: 2.5rem;
+}
+
 
 
 /*--------------------------------------------------------------------------------------------*/
