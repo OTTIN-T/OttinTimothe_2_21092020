@@ -195,6 +195,7 @@ label{
 	display: flex;
 	justify-content: space-around;
 	height: 56rem;
+	margin-left: -2rem;
 }
 
 .hebergementsTitre{
@@ -226,7 +227,7 @@ label{
 	margin: auto;
 	width: 100%;
 	box-shadow: 0rem 0.5rem 1rem #c3c1c1;
-    border-radius: 2rem 2rem 2rem 2rem;
+    border-radius: 2rem;
     border: 0.5rem white solid;
 }
 
@@ -322,13 +323,13 @@ label{
     height: 12rem;
     border: 0.5rem white solid;
     box-shadow: 0rem 0.5rem 1rem #c3c1c1;
-    border-radius: 2rem 2rem 2rem 2rem;
+    border-radius: 1rem;
 }
 
 .populaire img{
 	width: 60%;
 	height: 12rem;
-	border-radius: 2rem 0rem 0rem 2rem;
+	border-radius: 1rem 0rem 0rem 1rem;
 	/*définit la façon dont img doit s'adapter*/
 	object-fit: cover;
 	object-position: 0% 70%;
@@ -362,7 +363,106 @@ label{
 	margin-top: 2.5rem;
 }
 
+/*--------------------------------------------------------------------------------------------*/
+/*Partie activités*/
+/*--------------------------------------------------------------------------------------------*/
+#activiteBlock{
+	margin-top: 7rem;
+}
 
+.activite{
+	display: flex;
+	margin-top: -1rem;
+}
+
+.activite a{
+	/*width: 22%;*/
+}
+
+.activite figure{
+	width: 100%;
+	margin-left: 0rem;
+	box-shadow: 0rem 0.5rem 1rem #c3c1c1;
+	border-radius: 2rem;
+}
+
+.activite img{
+	border-radius: 2rem; 
+	object-fit: cover;
+	width: 100%;
+}
+
+
+.activiteLarge{
+	width: auto;
+}
+
+.activiteLarge img{ 
+	height: 45rem;
+
+}
+
+.activiteColonne{
+	display: flex;
+	flex-direction: column;
+	width: auto;
+	margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.activitePetit img{ 
+	height: 21rem;
+}
+
+.fort{
+	height: 25rem;
+}
+
+.frioul{
+	height: 15rem;
+}
+
+.activite figcaption{
+	background-color: white;
+	position: relative;
+	height: 5.2rem;
+	margin-top: -7rem;
+	padding-left: 2rem;
+	border-radius: 0rem 0rem 2rem 2rem;
+}
+
+.activite h3{
+	padding-top: 2rem;
+	font-size: 1.5rem;
+}
+
+/*--------------------------------------------------------------------------------------------*/
+/*Partie footer*/
+/*--------------------------------------------------------------------------------------------*/
+#footer{
+	background-color: #F2F2F2;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 30rem 2rem 3rem;
+}
+
+.footerMenu{
+	display: flex;
+	flex-direction: column;
+}
+
+.footerMenu h2{
+	font-size: 1.8rem;
+}
+
+.footerMenu ul{
+	margin-left: -4rem;
+	margin-top: 0rem;
+}
+
+.footerMenu li{
+	padding: 0.5rem;
+}
 
 /*--------------------------------------------------------------------------------------------*/
 /*Appelle de la police Raleway*/
