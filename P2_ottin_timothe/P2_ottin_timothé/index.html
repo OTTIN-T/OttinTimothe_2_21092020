@@ -34,7 +34,7 @@
 		<nav>
 			<ul class="liste_menu">
 				<li><a href="#galerie">Hébergements</a></li>
-				<li><a href="#activite">Activités</a></li>
+				<li><a href="#activiteBlock">Activités</a></li>
 				<li><a href="#" class="inscription">S'inscrire</a></li>
 			</ul>
 		</nav>
@@ -178,61 +178,67 @@
 	</section>
 
 	<!-- Partie activités -->
-	<section id="activite">
+	<section id="activiteBlock">
 		<h2>Activités à Marseille</h2>
-		<a href="#">		
-			<figure>
-				<img src="Projet-2-Reservia/images/activites/small/portSmall.jpg" alt="photo vieux port de Marseille">
-				<figcaption>
-					<h3>Vieux Port</h3>
-				</figcaption>
-			</figure>
-		</a>
-		<a href="#">
-			<figure>
-				<img src="Projet-2-Reservia/images/activites/small/fortSmall.jpg" alt="photo fort de Pomègues à Marseille">
-				<figcaption>
-					<h3>Fort de Pomègues</h3>
-				</figcaption>
-			</figure>
-		</a>
-		<a href="#">
-			<figure>
-				<img src="Projet-2-Reservia/images/activites/small/frioulSmall.jpg" alt="photo île de Frioul à Marseille">
-				<figcaption>
-					<h3>Îles du Frioul</h3>
-				</figcaption>
-			</figure>
-		</a>
-		<a href="#">
-			<figure>
-				<img src="Projet-2-Reservia/images/activites/small/calanquesSmall.jpg" alt="photo du parc national des Calanques à Marseille">
-				<figcaption>
-					<h3>Parc National des Calanques</h3>
-				</figcaption>
-			</figure>
-		</a>
-		<a href="#">
-			<figure>
-				<img src="Projet-2-Reservia/images/activites/small/dameSMall.jpg" alt="photo de Notre Dame de la Garde à Marseille">
-				<figcaption>
-					<h3>Notre-Dame-de-la-Garde</h3>
-				</figcaption>
-			</figure>
-		</a>
-		<a href="#">
-			<figure>
-				<img src="Projet-2-Reservia/images/activites/small/longchampSmall.jpg" alt="photo parc Longchamp à Marseille">
-				<figcaption>
-					<h3>Parc Longchamp</h3>
-				</figcaption>
-			</figure>
-		</a>
+		<article class="activite">
+			<a href="#" class="activiteLarge">		
+				<figure>
+					<img src="Projet-2-Reservia/images/activites/small/portSmall.jpg" alt="photo vieux port de Marseille">
+					<figcaption>
+						<h3>Vieux Port</h3>
+					</figcaption>
+				</figure>
+			</a>
+			<div class="activiteColonne">
+				<a href="#" class="activitePetit">
+					<figure>
+						<img src="Projet-2-Reservia/images/activites/small/fortSmall.jpg" alt="photo fort de Pomègues à Marseille" class="fort">
+						<figcaption>
+							<h3>Fort de Pomègues</h3>
+						</figcaption>
+					</figure>
+				</a>
+				<a href="#" class="activitePetit">
+					<figure>
+						<img src="Projet-2-Reservia/images/activites/small/frioulSmall.jpg" alt="photo île de Frioul à Marseille" class="frioul">
+						<figcaption>
+							<h3>Îles du Frioul</h3>
+						</figcaption>
+					</figure>
+				</a>
+			</div>
+			<a href="#" class="activiteLarge">
+				<figure>
+					<img src="Projet-2-Reservia/images/activites/small/calanquesSmall.jpg" alt="photo du parc national des Calanques à Marseille">
+					<figcaption>
+						<h3>Parc National des Calanques</h3>
+					</figcaption>
+				</figure>
+			</a>
+			<div class="activiteColonne">
+				<a href="#" class="activitePetit">
+					<figure>
+						<img src="Projet-2-Reservia/images/activites/small/dameSMall.jpg" alt="photo de Notre Dame de la Garde à Marseille">
+						<figcaption>
+							<h3>Notre-Dame-de-la-Garde</h3>
+						</figcaption>
+					</figure>
+				</a>
+				<a href="#" class="activitePetit">
+					<figure>
+						<img src="Projet-2-Reservia/images/activites/small/longchampSmall.jpg" alt="photo parc Longchamp à Marseille">
+						<figcaption>
+							<h3>Parc Longchamp</h3>
+						</figcaption>
+					</figure>
+				</a>
+			</div>
+		</article>
 	</section>
 
 	<!-- Partie footer -->
 	<footer id="footer">
-		<div class="propos">
+		<div class="footerMenu">
 			<h2>A propos</h2>
 			<ul>
 				<li><a href="#">Fonctionnement du site</a></li>
@@ -240,14 +246,14 @@
 				<li><a href="#">Données et confidentialité</a></li>
 			</ul>
 		</div>
-		<div class="hebergements">
+		<div class="footerMenu">
 			<h2>Nos hébergements</h2>
 			<ul>
 				<li><a href="#">Charte qualité</a></li>
 				<li><a href="#">Soumettre votre hôtel</a></li>
 			</ul>
 		</div>
-		<div class="assistance">
+		<div class="footerMenu">
 			<h2>Assistance</h2>
 			<ul>
 				<li><a href="#">Centre d'aide</a></li>
