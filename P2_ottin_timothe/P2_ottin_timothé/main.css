@@ -10,7 +10,7 @@ body{
 	font-family: 'Raleway-Regular', Arial, "Arial Black", "Comic Sans MS","Times New Roman", "Trebuchet MS";
 }
 
-h1, h2, h3, span, .elementFiltre, #lieux, .inscription{
+h1, h2, h3, span, .element-filtre, #lieux, .inscription{
 	font-family: 'Raleway-ExtraBold', Arial, "Arial Black", "Comic Sans MS","Times New Roman", "Trebuchet MS";
 }
 
@@ -42,19 +42,19 @@ nav a{
 	display: flex;
 }
 
-.liste_menu{
+.menu{
 	/*Colle le menu à droite*/
 	display: flex;
 	list-style: none;
   	justify-content: flex-end;
 }
 
-.liste_menu a{
+.menu a{
 	/*Permet d'écarter les éléments du menu*/
 	padding: 3.6rem;
 }
 
-.liste_menu a:hover{
+.menu a:hover{
 	/*Effet aux survol du menu*/
 	color: #106ffc;
 	border-top: 0.2rem #0065FC solid;	
@@ -135,11 +135,11 @@ label{
 	max-width: 70%;
 }
 
-.titreFiltre{
+.titre-filtre{
 	font-size: 2rem;
 }
 
-.elementFiltre{
+.element-filtre{
 	font-size: 1.7rem;
 	border: 0.3rem #F2F2F2 solid;
 	border-radius: 2.5rem;
@@ -148,7 +148,7 @@ label{
 	z-index: 1;
 }
 
-.elementFiltre:hover{
+.element-filtre:hover{
 	color: #0065FC;;
 	background: #DEEBFF;
 	/*Fait grossir l'élément*/
@@ -198,14 +198,14 @@ label{
 	margin-left: -2rem;
 }
 
-.hebergementsTitre{
+.hebergements-titre{
 	background-color: #F2F2F2;
 	padding: 2rem 1rem 1rem 1rem;
 	border-radius: 2rem;
 	width: 60%;
 }
 
-.hebergementsTitre h2{
+.hebergements-titre h2{
 	margin-left: 1.5rem;
 }
 
@@ -240,17 +240,17 @@ label{
 }
 
 /*Ajustement des photos*/
-.imgCannebiere{
+.img-cannebiere{
 	/*définit la façon dont img doit s'adapter*/
 	object-position: 0% 500%;
 }
-.imgPort, .imgMouettes{
+.img-port, .img-mouettes{
 	object-position: 0% 400%;
 }
-.imgMer{
+.img-mer{
 	object-position: 0% 70%;
 }
-.imgAmina{
+.img-amina{
 	object-position: 0% 57%;
 }
 
@@ -288,7 +288,7 @@ label{
 	padding-top: 0.5rem;
 }
 
-.etoileGrise{
+.etoile-grise{
 	color: #e5e5e5;
 }
 
@@ -361,7 +361,7 @@ label{
 	margin-top: 4rem;
 }
 
-.populaire .etoileCoeur{
+.populaire .etoile-coeur{
 	margin-top: 2.5rem;
 }
 
@@ -395,20 +395,16 @@ label{
 	width: 100%;
 }
 
-.vieux-port{
-	object-position: 0% 50%;
-}
-
-.activiteLarge{
+.activite-large{
 	width: auto;
 }
 
-.activiteLarge img{ 
+.activite-large img{ 
 	height: 40rem;
 
 }
 
-.activite-colonne-un, .activite-colonne-deux{
+.activite-colonne{
 	display: flex;
 	flex-direction: column;
 	width: auto;
@@ -454,21 +450,21 @@ label{
     padding: 2rem 30rem 2rem 3rem;
 }
 
-.footerMenu{
+.footer-menu{
 	display: flex;
 	flex-direction: column;
 }
 
-.footerMenu h2{
+.footer-menu h2{
 	font-size: 1.8rem;
 }
 
-.footerMenu ul{
+.footer-menu ul{
 	margin-left: -4rem;
 	margin-top: 0rem;
 }
 
-.footerMenu li{
+.footer-menu li{
 	padding: 0.5rem;
 }
 
