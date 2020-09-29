@@ -8,10 +8,13 @@ body{
 	margin: auto;
 	font-size: 1.5rem;
 	font-family: 'Raleway-Regular', Arial, "Arial Black", "Comic Sans MS","Times New Roman", "Trebuchet MS";
+	-moz-text-size-adjust: auto;
+	-webkit-text-size-adjust: auto;
+	-ms-text-size-adjust: auto;
 }
 
 h1, h2, h3, span, .element-filtre, #lieux, .inscription{
-	font-family: 'Raleway-ExtraBold', Arial, "Arial Black", "Comic Sans MS","Times New Roman", "Trebuchet MS";
+	font-family: 'Raleway-Bold', Arial, "Arial Black", "Comic Sans MS","Times New Roman", "Trebuchet MS";
 }
 
 a{
@@ -106,6 +109,15 @@ label{
 	/*Change la couleur d'écriture du placeholder*/
 	color: black;
 }
+
+/*Ne marche pas ?*/
+#lieux::-webkit-input-placeholder{
+	color: black;
+}
+#lieux.studentid:-ms-input-placeholder{
+	color: black;
+}
+/*Ne marche pas ?*/
 
 .recherche{
 	color: white;
@@ -397,11 +409,11 @@ label{
 
 .activite-large{
 	width: auto;
+
 }
 
 .activite-large img{ 
 	height: 40rem;
-
 }
 
 .activite-colonne{
@@ -416,10 +428,13 @@ label{
 	height: 18.5rem;
 }
 
+.activite-petit{
+	width: 28rem;
+}
+
 .activite-petit .fort{
 	height: 22rem;
 }
-
 
 .activite-petit .frioul{
 	height: 15rem;
