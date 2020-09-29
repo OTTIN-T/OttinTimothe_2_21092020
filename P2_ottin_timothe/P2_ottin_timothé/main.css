@@ -275,6 +275,7 @@ label{
     margin-bottom: 0rem;
     padding-left: 1.5rem;
     font-size: 1.3rem;
+    width: 12rem;
 }
 
 .hebergements span{
@@ -353,6 +354,7 @@ label{
 .populaire p{
     padding-left: 1.5rem;
     font-size: 1.3rem;
+    width: 13rem;
 }
 
 .populaire .fa-star{
@@ -368,6 +370,7 @@ label{
 /*--------------------------------------------------------------------------------------------*/
 #activiteBlock{
 	margin-top: 7rem;
+	margin-bottom: 5rem;
 }
 
 .activite{
@@ -392,17 +395,20 @@ label{
 	width: 100%;
 }
 
+.vieux-port{
+	object-position: 0% 50%;
+}
 
 .activiteLarge{
 	width: auto;
 }
 
 .activiteLarge img{ 
-	height: 45rem;
+	height: 40rem;
 
 }
 
-.activiteColonne{
+.activite-colonne-un, .activite-colonne-deux{
 	display: flex;
 	flex-direction: column;
 	width: auto;
@@ -410,15 +416,16 @@ label{
     margin-right: 3rem;
 }
 
-.activitePetit img{ 
-	height: 21rem;
+.activite-petit img{ 
+	height: 18.5rem;
 }
 
-.fort{
-	height: 25rem;
+.activite-petit .fort{
+	height: 22rem;
 }
 
-.frioul{
+
+.activite-petit .frioul{
 	height: 15rem;
 }
 
@@ -435,6 +442,7 @@ label{
 	padding-top: 2rem;
 	font-size: 1.5rem;
 }
+
 
 /*--------------------------------------------------------------------------------------------*/
 /*Partie footer*/
