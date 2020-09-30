@@ -6,6 +6,7 @@ html{
 body{
 	max-width: 128rem;
 	margin: auto;
+	padding: 0rem 1rem 0rem 1rem;
 	font-size: 1.5rem;
 	font-family: 'Raleway-Regular', Arial, "Arial Black", "Comic Sans MS","Times New Roman", "Trebuchet MS";
 	-moz-text-size-adjust: auto;
@@ -27,7 +28,7 @@ ul{
 }
 
 /*--------------------------------------------------------------------------------------------*/
-/*Mise en place du header*/
+/*Partie header*/
 /*--------------------------------------------------------------------------------------------*/
 nav{
 	font-family: 'Raleway-SemiBold', Arial, "Arial Black", "Comic Sans MS","Times New Roman", "Trebuchet MS";
@@ -66,6 +67,7 @@ nav a{
 .inscription{
 	color: #0065FC;
 }
+
 
 /*--------------------------------------------------------------------------------------------*/
 /*Section formulaire*/
@@ -135,7 +137,9 @@ label{
 	background-color: white;
 	border-color: #0065FC;
 }
-
+button{
+	display: none;
+}
 /*--------------------------------------------------------------------------------------------*/
 /*Partie filtre*/
 /*--------------------------------------------------------------------------------------------*/
@@ -205,9 +209,8 @@ label{
 /*--------------------------------------------------------------------------------------------*/
 #galerie{
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	height: 56rem;
-	margin-left: -2rem;
 }
 
 .hebergements-titre{
@@ -409,7 +412,6 @@ label{
 
 .activite-large{
 	width: auto;
-
 }
 
 .activite-large img{ 
