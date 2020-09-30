@@ -22,6 +22,8 @@
 	<meta name="twitter:image" content="Projet-2-Reservia/images/logo/reservia.svg">
 	<!-- Appel du fichier css -->
 	<link rel="stylesheet" type="text/css" href="main.css">
+	<!-- Appel media queries -->
+	<link rel="stylesheet" media="all and (max-width: 320px)" href="main-320px.css">
 	<!-- Logo en favicon -->
 	<link rel="shortcut icon" type="image/x-icon" href="Projet-2-Reservia/images/logo/reservia-favicon.png"/>
 	<!-- script fontawesome -->
@@ -33,8 +35,8 @@
 	<header>
 		<nav>
 			<ul class="menu">
-				<li><a href="#galerie">Hébergements</a></li>
-				<li><a href="#activiteBlock">Activités</a></li>
+				<li class="menu-responsive"><a href="#galerie" class="barre">Hébergements</a></li>
+				<li class="menu-responsive"><a href="#activiteBlock" class="menu-activite-responsive barre">Activités</a></li>
 				<li><a href="#" class="inscription">S'inscrire</a></li>
 			</ul>
 		</nav>
@@ -50,8 +52,9 @@
 		<form method="post" action="traitement.php">
 			<p>
 				<label for="lieux"><i class="fas fa-map-marker-alt"></i></label>
-				<input type="text" name="lieux" placeholder="Marseille, France" size="19" id="lieux">
+				<input type="search" name="lieux" placeholder="Marseille, France" size="19" id="lieux">
 				<input type="submit" name="rechercher" value="Rechercher" class="recherche">
+				<button><i class="fas fa-search"></i></button>
 			</p>
 		</form>
 	</section>
