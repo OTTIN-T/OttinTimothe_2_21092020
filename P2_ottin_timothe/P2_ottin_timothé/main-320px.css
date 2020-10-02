@@ -44,7 +44,7 @@
 		line-height: 7rem;
 	}
 
-	.barre{
+	.barre-une, .barre-deux{
 		display: flex;
 		flex-direction: column-reverse;
 		background-color: #F2F2F2;
@@ -54,19 +54,23 @@
 		padding: 0rem 7rem 0rem 3rem !important;
 	}
 
-	.barre:hover{
+	.barre-une:hover, .barre-deux:hover{
 		background-color: #106ffc;
 	}
 
 /*--------------------------------------------------------------------------------------------*/
 /*Section formulaire*/
 /*--------------------------------------------------------------------------------------------*/
+	form{
+		margin: 2rem;
+	}
+
 	#formulaire{
 		margin: 0rem 1rem 0rem 1rem;
 	}
 
 	h1{
-		font-size: 1.3rem;
+		font-size: 2rem;
 		margin-bottom: 0rem;
 	}
 
@@ -75,22 +79,19 @@
 	}
 
 	label {
-		background-color: #F2F2F2;
-		padding: 1rem 1.2rem 1rem 1.2rem;
-		border-radius: 1.5rem 0rem 0rem 1.5rem;
-		z-index: 2;
+		padding: 1.25rem 1.4rem 1.25rem 1.4rem;
+		border-radius: 1.2rem 0rem 0rem 1.2rem;
 		position: relative;
 	}
 
 	.fa-map-marker-alt {
-    	font-size: 1.5rem;
+    	font-size: 1.6rem;
 	}
 
 	#lieux {
-	    border: 0.1rem #F2F2F2 solid;
 	    font-size: 1.5rem;
 	    margin-left: -1.8rem;
-	    padding: 0.92rem 0rem 0.97rem 1.8rem;
+	    padding: 1.15rem 0rem 1.15rem 2rem;
 	}
 
 	.recherche{
@@ -101,38 +102,136 @@
 		display: inline;
 		color: white;
 		font-size: 1.5rem;
-		margin-left: -2.5rem;
+		margin-left: -1.5rem;
 		background-color: #0065FC;
-		padding: 1rem 1rem 1rem 1rem;
+		padding: 1.1rem 1.3rem 1.2rem 1.2rem;
 		border-radius: 1.2rem 1rem 1rem 1rem;
 		border: none;
 	}
 
+/*--------------------------------------------------------------------------------------------*/
+/*Partie filtre*/
+/*--------------------------------------------------------------------------------------------*/
+	#filtres{
+		flex-direction: column;
+		margin-left: 2rem;
+		max-width: 100%;
+	}
 
+	.element-filtre{
+		margin: -5rem 1rem 1.5rem 0rem;
+	}
 
+	.infos{
+		max-width: 100%;
+		margin: 2rem 0rem 3rem 0rem;
+		font-size: 1.3rem;
+		margin: 0rem 0.5rem 0rem 2rem;
+	}
 
+/*--------------------------------------------------------------------------------------------*/
+/*Partie populaire*/
+/*--------------------------------------------------------------------------------------------*/
+	#galerie{
+		flex-direction: column-reverse;
+		height: 183rem;
+	}
 
+	.populaire{
+		padding: 1rem;
+		border-radius: 0rem;
+		width: 100%;
+	}
 
+	.populaire h2{
+		margin-right: 2rem;
+	}
 
+	.populaire figure{
+		width: 26rem;
+		border-radius: 1.5rem;
+	}
 
+	.populaire figcaption{
+		margin: -14rem 0rem 2rem 10rem;
+		height: 12.5rem;
+	}
 
+	.populaire img{
+		object-position: 100% 55%;
+		width: 50%;
+	}
 
+	.populaire fa-star{
+		margin-top: 3rem;
+	}
 
+/*--------------------------------------------------------------------------------------------*/
+/*Partie hébergements*/
+/*--------------------------------------------------------------------------------------------*/
+ 	
+ 	.hebergements-titre{
+ 		background-color: inherit;
+ 		width: 80%;
+ 	}
 
+ 	.hebergements-titre h2{
+ 		font-size: 1.8rem;
+ 		margin-left: 2rem;
+ 	}
 
+ 	.hebergements{
+ 		flex-direction: column;
+ 	}
 
+ 	.hebergements a{
+ 		width: 100%;
+ 		margin: 1rem 1rem 0rem 2rem;
+ 	}
 
+ 	.hebergements figcaption{
+ 		border-radius: 0rem 0rem 1rem 1rem;
+ 	}
 
+ 	.img-cannebiere{
+ 		object-position: 0% 80%;
+ 	}
 
+ 	.img-port, .img-mouettes{
+ 		object-position: 0% 100%;
+ 	}
 
+ 	.hebergements span{
+ 		font-size: 1.8rem;
+ 		margin-left: 0rem;
+ 	}
 
+/*--------------------------------------------------------------------------------------------*/
+/*Partie activités*/
+/*--------------------------------------------------------------------------------------------*/
+	 
+	#activiteBlock{
+		margin: 2rem;
+	}
 
+	.activite{
+		flex-direction: column;
+	}
 
+	.activite-large img, .activite-petit img, .activite-petit .fort, .activite-petit .frioul{
+		height: 17rem;
+	}
 
+	.activite-colonne{
+		margin: 0rem;
+	}
 
+/*--------------------------------------------------------------------------------------------*/
+/*Partie footer*/
+/*--------------------------------------------------------------------------------------------*/
 
-
-
-
-
+	#footer{
+		flex-direction: column;
+		padding: 0rem 0rem 0rem 2rem;
+	}
 }
