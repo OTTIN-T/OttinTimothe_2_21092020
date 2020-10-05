@@ -44,7 +44,7 @@
 		line-height: 7rem;
 	}
 
-	.barre-une, .barre-deux{
+	.barre-une{
 		display: flex;
 		flex-direction: column-reverse;
 		background-color: #F2F2F2;
@@ -52,6 +52,16 @@
 		width: 12rem;
 		margin: 0rem -16rem 0rem 11rem;
 		padding: 0rem 7rem 0rem 3rem !important;
+	}
+
+	.barre-deux{
+		display: flex;
+		flex-direction: column-reverse;
+		background-color: #F2F2F2;
+		height: 0.5rem;
+		width: 12rem;
+		margin: 0rem -7.5rem 0rem 8rem;
+		padding: 0rem 1rem 0rem 4rem !important;		
 	}
 
 	.barre-une:hover, .barre-deux:hover{
@@ -66,16 +76,18 @@
 	}
 
 	#formulaire{
-		margin: 0rem 1rem 0rem 1rem;
+		margin: 7rem 1rem 0rem 1rem;
 	}
 
 	h1{
 		font-size: 2rem;
 		margin-bottom: 0rem;
+		margin-left: 1rem;
 	}
 
 	h1 + p{
 		font-size: 1.5rem;
+		margin-left: 1rem;
 	}
 
 	label {
@@ -114,19 +126,23 @@
 /*--------------------------------------------------------------------------------------------*/
 	#filtres{
 		flex-direction: column;
+		align-items: flex-start;
 		margin-left: 2rem;
 		max-width: 100%;
 	}
 
 	.element-filtre{
-		margin: -5rem 1rem 1.5rem 0rem;
+		margin: -5rem 1rem 1.5rem 1rem;
+	}
+
+	.fa-info{
+		margin-right: 1rem;
 	}
 
 	.infos{
 		max-width: 100%;
-		margin: 2rem 0rem 3rem 0rem;
 		font-size: 1.3rem;
-		margin: 0rem 0.5rem 0rem 2rem;
+		margin: 2rem 0.5rem 7rem 2rem;
 	}
 
 /*--------------------------------------------------------------------------------------------*/
@@ -135,20 +151,24 @@
 	#galerie{
 		flex-direction: column-reverse;
 		height: 183rem;
+		margin-top: 15%;
 	}
 
 	.populaire{
 		padding: 1rem;
 		border-radius: 0rem;
-		width: 100%;
+		width: 94%;
 	}
 
 	.populaire h2{
-		margin-right: 2rem;
+		margin-right: 3rem;
 	}
 
+	.populaire a{
+		width: auto;
+	}
 	.populaire figure{
-		width: 26rem;
+		width: auto;
 		border-radius: 1.5rem;
 	}
 
@@ -163,7 +183,7 @@
 	}
 
 	.populaire fa-star{
-		margin-top: 3rem;
+		margin-top: 2.5rem;
 	}
 
 /*--------------------------------------------------------------------------------------------*/
@@ -220,6 +240,10 @@
 
 	.activite-large img, .activite-petit img, .activite-petit .fort, .activite-petit .frioul{
 		height: 17rem;
+	}
+
+	.activite-petit{
+		width: auto;
 	}
 
 	.activite-colonne{
