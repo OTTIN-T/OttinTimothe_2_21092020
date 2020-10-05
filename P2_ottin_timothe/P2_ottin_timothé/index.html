@@ -23,7 +23,8 @@
 	<!-- Appel du fichier css -->
 	<link rel="stylesheet" type="text/css" href="main.css">
 	<!-- Appel media queries -->
-	<link rel="stylesheet" media="all and (max-width: 320px)" href="main-320px.css">
+	<link rel="stylesheet" type="text/css" media="all and (max-width: 320px)" href="main-320px.css">
+	<link rel="stylesheet" type="text/css" media="all and (max-width: 375px)" href="main-375px.css">
 	<!-- Logo en favicon -->
 	<link rel="shortcut icon" type="image/x-icon" href="Projet-2-Reservia/images/logo/reservia-favicon.png"/>
 	<!-- script fontawesome -->
@@ -45,7 +46,7 @@
 
 	<!-- Partie formulaire de recherche -->
 	<section id="formulaire">
-		<div>
+		<div class="formulaire-texte">
 			<h1>Trouvez votre hébergement pour des vacances de rêve</h1>
 			<p>En plein centre ville ou en pleine nature</p>
 		</div>
@@ -66,7 +67,7 @@
 			<i class="fas fa-money-bill-wave"></i>
 			<a href="#"><p class="element-filtre">Économiques</p></a>
 			<i class="fas fa-child"></i>
-			<a href="#"><p class="element-filtre">Familial</p></a>
+			<a href="#"><p class="element-filtre filtre-familial">Familial</p></a>
 			<i class="fas fa-heart"></i>
 			<a href="#"><p class="element-filtre">Romantique</p></a>
 			<i class="fas fa-dog"></i>
