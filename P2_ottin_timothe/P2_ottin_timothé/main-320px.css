@@ -1,9 +1,7 @@
-@media all and (width <= 320px){
-	body{
-		max-width: 32rem;
-		padding: 0rem;
+@media all and (max-width: 320px){
+	header, section, aside{
+	margin: 0rem;
 	}
-
 /*--------------------------------------------------------------------------------------------*/
 /*Partie header*/
 /*--------------------------------------------------------------------------------------------*/
@@ -20,7 +18,10 @@
 	}
 
 	.menu{
-		padding: 0rem 1rem 0rem 1rem;
+		padding: 0rem 0rem 0rem 1rem;
+		border-bottom: 0.5rem solid #F2F2F2;
+		justify-content: center;
+		width: 100%;
 	}
 
 	.menu a {
@@ -32,8 +33,7 @@
 	}
 
 	.menu-responsive{
-		margin-top: 9rem;
-		margin-left: 2rem;
+	    margin: 9rem 0rem -0.5rem -3rem;
 	}
 
 	.menu-activite-responsive{
@@ -47,32 +47,29 @@
 	.barre-une{
 		display: flex;
 		flex-direction: column-reverse;
-		background-color: #F2F2F2;
 		height: 0.5rem;
-		width: 12rem;
-		margin: 0rem -16rem 0rem 11rem;
-		padding: 0rem 7rem 0rem 3rem !important;
+	    width: 12.5rem;
+	    margin: 0rem -1rem 0rem 0rem;
+	    padding: 0rem 0rem 0rem 3rem !important;
 	}
 
 	.barre-deux{
 		display: flex;
 		flex-direction: column-reverse;
-		background-color: #F2F2F2;
 		height: 0.5rem;
-		width: 12rem;
-		margin: 0rem -7.5rem 0rem 8rem;
-		padding: 0rem 1rem 0rem 4rem !important;		
+		width: 11rem;
+	    margin: 0rem -7.5rem 0rem 4rem;
+	    padding: 0rem 2rem 0rem 5rem !important;		
 	}
 
 	.barre-une:hover, .barre-deux:hover{
 		background-color: #106ffc;
 	}
-
 /*--------------------------------------------------------------------------------------------*/
 /*Section formulaire*/
 /*--------------------------------------------------------------------------------------------*/
 	form{
-		margin: 2rem;
+		margin: 2rem 0rem 0rem 1rem;
 	}
 
 	#formulaire{
@@ -133,6 +130,7 @@
 
 	.element-filtre{
 		margin: -5rem 1rem 1.5rem 1rem;
+		padding: 1.2rem 2rem 1.2rem 5rem;
 	}
 
 	.fa-info{
@@ -141,7 +139,7 @@
 
 	.infos{
 		max-width: 100%;
-		font-size: 1.3rem;
+		font-size: 1.7rem;
 		margin: 2rem 0.5rem 7rem 2rem;
 	}
 
@@ -150,40 +148,43 @@
 /*--------------------------------------------------------------------------------------------*/
 	#galerie{
 		flex-direction: column-reverse;
-		height: 183rem;
-		margin-top: 15%;
 	}
 
 	.populaire{
-		padding: 1rem;
 		border-radius: 0rem;
-		width: 94%;
-	}
-
-	.populaire h2{
-		margin-right: 3rem;
+		width: 102%;
+		padding: 0rem;
 	}
 
 	.populaire a{
-		width: auto;
+		width: 96%;
 	}
+
 	.populaire figure{
-		width: auto;
 		border-radius: 1.5rem;
+		height: 13.89rem;
 	}
 
 	.populaire figcaption{
-		margin: -14rem 0rem 2rem 10rem;
-		height: 12.5rem;
+		margin: -16rem 0rem 0rem 12rem;
+		height: 100%;
 	}
 
 	.populaire img{
 		object-position: 100% 55%;
-		width: 50%;
+		width: 45%;
 	}
 
-	.populaire fa-star{
-		margin-top: 2.5rem;
+	.populaire p, .populaire h3{
+		padding-left: 1rem;
+	}
+
+	.populaire .fa-star{
+		margin-top: 2rem;
+	}
+
+	.populaire .etoile-coeur {
+    	margin-top: 1rem;
 	}
 
 /*--------------------------------------------------------------------------------------------*/
@@ -192,7 +193,8 @@
  	
  	.hebergements-titre{
  		background-color: inherit;
- 		width: 80%;
+ 		width: 100%;
+ 		padding: 0rem;
  	}
 
  	.hebergements-titre h2{
@@ -206,11 +208,21 @@
 
  	.hebergements a{
  		width: 100%;
- 		margin: 1rem 1rem 0rem 2rem;
+ 		margin: 2rem 1rem 0rem 0rem;
+ 	}
+
+ 	.hebergements figure{
+ 		width: 80%;
+ 	}
+
+ 	.hebergements img{
+ 		height: 13rem;
  	}
 
  	.hebergements figcaption{
  		border-radius: 0rem 0rem 1rem 1rem;
+ 		margin-left: -0.2rem;
+    	padding-right: 0.4rem;
  	}
 
  	.img-cannebiere{
@@ -223,7 +235,8 @@
 
  	.hebergements span{
  		font-size: 1.8rem;
- 		margin-left: 0rem;
+ 		margin-left: 2rem;
+ 		margin-bottom: 3rem;
  	}
 
 /*--------------------------------------------------------------------------------------------*/
@@ -238,12 +251,13 @@
 		flex-direction: column;
 	}
 
-	.activite-large img, .activite-petit img, .activite-petit .fort, .activite-petit .frioul{
-		height: 17rem;
+	.activite-large, .activite-petit, .activite-petit-deux{
+		width: 100%;
+		margin-bottom: 0rem;
 	}
 
-	.activite-petit{
-		width: auto;
+	.activite-large img, .activite-petit img, .activite-petit-deux img, .activite-petit .fort, .activite-petit .frioul{
+		height: 17rem;
 	}
 
 	.activite-colonne{
@@ -256,6 +270,11 @@
 
 	#footer{
 		flex-direction: column;
+		width: 95%;
 		padding: 0rem 0rem 0rem 2rem;
+	}
+
+	.footer-menu{
+		margin-right: 0rem;	
 	}
 }

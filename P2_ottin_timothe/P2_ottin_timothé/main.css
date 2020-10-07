@@ -4,14 +4,14 @@ html{
 }
 
 body{
-	max-width: 128rem;
-	margin: auto;
-	padding: 0rem 1rem 0rem 1rem;
+	max-width: 100%;
 	font-size: 1.5rem;
+	margin: 0rem;
 	font-family: 'Raleway-Regular', Arial, "Arial Black", "Comic Sans MS","Times New Roman", "Trebuchet MS";
-	-moz-text-size-adjust: auto;
-	-webkit-text-size-adjust: auto;
-	-ms-text-size-adjust: auto;
+}
+
+header, section, aside{
+	margin: 0rem 3rem 0rem 3rem;
 }
 
 h1, h2, h3, span, .element-filtre, #lieux, .inscription{
@@ -148,7 +148,7 @@ button{
 	justify-content: space-between;
 	align-items: center;
 	/*Donne une limite au space-between*/
-	max-width: 70%;
+	max-width: 55%;
 }
 
 .titre-filtre{
@@ -179,7 +179,7 @@ button{
 	padding: 1.5rem;
 	border-radius: 2.5rem;
 	font-size: 2rem;
-	margin-right: -6rem;
+	margin-right: -9rem;
 	/*Fait passer l'icon par dessus l'élément*/
 	z-index: 2;
 }
@@ -194,7 +194,7 @@ button{
 	justify-content: space-between;
 	align-items: center;
 	/*Donne une limite au space-between*/
-	max-width: 34%;
+	max-width: 24%;
 }
 
 .fa-info{
@@ -210,14 +210,14 @@ button{
 #galerie{
 	display: flex;
 	justify-content: space-between;
-	height: 56rem;
+	height: 100%;
 }
 
 .hebergements-titre{
 	background-color: #F2F2F2;
 	padding: 2rem 1rem 1rem 1rem;
 	border-radius: 2rem;
-	width: 60%;
+	width: 62%;
 }
 
 .hebergements-titre h2{
@@ -233,8 +233,7 @@ button{
 
 .hebergements a{
 	width: 28%;
-	height: auto;
-	margin: 2rem 1rem 0.5rem 2rem;
+	margin: 2rem 3rem 0.5rem 3rem;
 }
 
 
@@ -248,25 +247,23 @@ button{
 
 .hebergements img{
 	width: 100%;
-	height: 14rem;
+	height: 17rem;
 	border-radius: 2rem 2rem 0rem 0rem;
 	/*définit la façon dont img doit s'adapter*/
 	object-fit: cover;
 }
 
 /*Ajustement des photos*/
-.img-cannebiere{
+.img-cannebiere, .img-port, .img-mouettes{
 	/*définit la façon dont img doit s'adapter*/
-	object-position: 0% 500%;
+	object-position: 0% 100%;
 }
-.img-port, .img-mouettes{
-	object-position: 0% 400%;
-}
+
 .img-mer{
-	object-position: 0% 70%;
+	object-position: 0% 75%;
 }
 .img-amina{
-	object-position: 0% 57%;
+	object-position: 0% 60%;
 }
 
 .hebergements figcaption{
@@ -327,49 +324,46 @@ button{
 }
 
 .populaire a{
-	width: 55%;
-	height: auto;
+	width: 100%;
 	margin-left: 1.5rem;
 }
 
-
 .populaire figure{
     margin: 0rem 0rem 3rem 0rem;
-    width: 34rem;
-    height: 12rem;
+    width: 90%;
+    height: 14rem;
     border: 0.5rem white solid;
     box-shadow: 0rem 0.5rem 1rem #c3c1c1;
     border-radius: 1rem;
 }
 
 .populaire img{
-	width: 60%;
-	height: 12rem;
+	width: 40%;
+	height: 100%;
 	border-radius: 1rem 0rem 0rem 1rem;
 	/*définit la façon dont img doit s'adapter*/
 	object-fit: cover;
-	object-position: 0% 70%;
+	object-position: 0% 54%;
 }
 
 .populaire figcaption{
 	position: relative;
 	background-color: white;
-	margin: -13.8rem 0rem 2rem 13rem;
-	height: 12rem;
-	width: auto;
+	margin: -16.6rem 0rem 2rem 19rem;
+	height: 15rem;
 }
 
 .populaire h3{
 	margin-bottom: -0.5rem;
-	font-size: 1.4rem;
-    padding-left: 1.5rem;
-    padding-top: 1rem;
+	font-size: 1.7rem;
+    padding-left: 2rem;
+    padding-top: 1.5rem;
 }
 
 .populaire p{
-    padding-left: 1.5rem;
-    font-size: 1.3rem;
-    width: 13rem;
+    padding-left: 2rem;
+    font-size: 1.5rem;
+    width: 15rem;
 }
 
 .populaire .fa-star{
@@ -384,18 +378,15 @@ button{
 /*Partie activités*/
 /*--------------------------------------------------------------------------------------------*/
 #activiteBlock{
-	margin-top: 7rem;
-	margin-bottom: 5rem;
+	margin: 7rem 6rem 0rem 3rem;
 }
 
 .activite{
 	display: flex;
+	justify-content: space-between;
 	margin-top: -1rem;
 }
 
-.activite a{
-	/*width: 22%;*/
-}
 
 .activite figure{
 	width: 100%;
@@ -411,19 +402,21 @@ button{
 }
 
 .activite-large{
-	width: auto;
+	width: 23%;
 }
 
 .activite-large img{ 
-	height: 40rem;
+	height: 58rem;
 }
 
 .activite-colonne{
 	display: flex;
 	flex-direction: column;
-	width: auto;
-	margin-left: 3rem;
-    margin-right: 3rem;
+}
+
+.activite-colonne-deux{
+	display: flex;
+	flex-direction: column;
 }
 
 .activite-petit img{ 
@@ -431,15 +424,20 @@ button{
 }
 
 .activite-petit{
-	width: 28rem;
+	width: 44rem;
+	margin-bottom: 3rem;
 }
 
 .activite-petit .fort{
-	height: 22rem;
+	height: 29rem;
 }
 
 .activite-petit .frioul{
-	height: 15rem;
+	height: 23rem;
+}
+
+.activite-petit-deux{
+	width: 39.2rem;
 }
 
 .activite figcaption{
@@ -464,12 +462,13 @@ button{
 	background-color: #F2F2F2;
     display: flex;
     justify-content: space-between;
-    padding: 2rem 30rem 2rem 3rem;
+    padding: 2rem 0rem 0rem 3rem;
 }
 
 .footer-menu{
 	display: flex;
 	flex-direction: column;
+	margin-right: 45rem;
 }
 
 .footer-menu h2{
