@@ -164,16 +164,18 @@
 	.populaire{
 		border-radius: 0rem;
 		width: 107%;
-		padding: 0rem;
+		padding: 0rem 0rem 3rem 0rem;
 	}
 
 	.populaire a{
 		width: 96%;
+		margin-left: 2rem;
 	}
 
 	.populaire figure{
-		border-radius: 1.5rem;
+		border-radius: 2rem;
 		height: 13.89rem;
+		margin: 0rem 0rem 1rem 0rem;
 	}
 
 	.populaire figcaption{
@@ -185,6 +187,7 @@
 	.populaire img{
 		object-position: 58% 55%;
 		width: 40%;
+		border-radius: 2rem 0rem 0rem 2rem;
 	}
 
 	.populaire p, .populaire h3{
@@ -194,6 +197,7 @@
 
 	.populaire .fa-star{
 		margin-top: 2rem;
+		font-size: 1.2rem;
 	}
 
 	.populaire .etoile-coeur {
@@ -217,6 +221,7 @@
 
  	.hebergements{
  		flex-direction: column;
+ 		margin-left: 1rem;
  	}
 
  	.hebergements a{
@@ -257,7 +262,7 @@
 /*--------------------------------------------------------------------------------------------*/
 	 
 	#activiteBlock{
-		margin: 2rem;
+		margin: 2rem 1rem 2rem 3rem;
 	}
 
 	.activite{

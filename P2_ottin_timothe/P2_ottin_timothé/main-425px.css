@@ -48,7 +48,7 @@
 		display: flex;
 		flex-direction: column-reverse;
 		height: 0.5rem;
-	    width: 13.5rem;
+	    width: 15rem;
 	    margin: 0rem -8rem 0rem -2rem;
 	    padding: 0rem 3rem 0rem 4rem !important;
 	}
@@ -134,7 +134,7 @@
 	}
 
 	.element-filtre{
-		margin: -5rem 1rem 1.5rem 1rem;
+		margin: -5rem 1rem 1.5rem 0.5rem;
 		padding: 1.2rem 2rem 1.2rem 5rem;
 	}
 
@@ -165,7 +165,7 @@
 
 	.populaire{
 		border-radius: 0rem;
-		width: 108%;
+		width: 110%;
 		padding: 0rem;
 	}
 
@@ -174,19 +174,21 @@
 	}
 
 	.populaire figure{
-		border-radius: 1.5rem;
+		border-radius: 2rem;
 		height: 13.89rem;
+		margin: 0rem 0rem 3rem 0.5rem;
 	}
 
 	.populaire figcaption{
-		margin: -16rem 0rem 0rem 12rem;
+		margin: -16rem 0rem 0rem 18rem;
 		height: 100%;
 		padding-left: 1rem;
 	}
 
 	.populaire img{
 		object-position: 58% 55%;
-		width: 38%;
+		width: 51%;
+		border-radius: 2rem 0rem 0rem 2rem;
 	}
 
 	.populaire p, .populaire h3{
@@ -196,6 +198,7 @@
 
 	.populaire .fa-star{
 		margin-top: 2rem;
+		font-size: 1.2rem;
 	}
 
 	.populaire .etoile-coeur {
@@ -219,6 +222,7 @@
 
  	.hebergements{
  		flex-direction: column;
+ 		margin-left: 1rem;
  	}
 
  	.hebergements a{
@@ -259,7 +263,7 @@
 /*--------------------------------------------------------------------------------------------*/
 	 
 	#activiteBlock{
-		margin: 2rem;
+		margin: 2rem 1rem 2rem 4rem;
 	}
 
 	.activite{
@@ -285,7 +289,7 @@
 
 	#footer{
 		flex-direction: column;
-		width: 98%;
+		width: 105%;
 		padding: 0rem 0rem 0rem 2rem;
 	}
 

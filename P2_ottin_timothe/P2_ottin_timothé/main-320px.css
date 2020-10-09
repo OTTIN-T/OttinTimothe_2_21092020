@@ -161,7 +161,7 @@
 	}
 
 	.populaire figure{
-		border-radius: 1.5rem;
+		border-radius: 2rem;
 		height: 13.89rem;
 	}
 
@@ -173,6 +173,7 @@
 	.populaire img{
 		object-position: 100% 55%;
 		width: 45%;
+		border-radius: 2rem 0rem 0rem 2rem;
 	}
 
 	.populaire p, .populaire h3{
@@ -181,6 +182,7 @@
 
 	.populaire .fa-star{
 		margin-top: 2rem;
+		font-size: 1.2rem;
 	}
 
 	.populaire .etoile-coeur {
