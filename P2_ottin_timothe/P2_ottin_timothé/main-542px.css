@@ -1,4 +1,4 @@
-@media all and (min-width: 426px) and (max-width: 543px)
+@media all and (min-width: 426px) and (max-width: 542px)
 {
 	header, section, aside{
 	margin: 0rem;
@@ -7,18 +7,21 @@
 /*Partie header*/
 /*--------------------------------------------------------------------------------------------*/
 	.menu a{
-		padding: 3.6rem 2rem;;
+		padding: 3.6rem 1rem;;
 	}
 
 	.logo{
 		margin-left: 2rem;
+	}
+
+	.inscription{
+		margin-right: -2rem;
 	}
 /*--------------------------------------------------------------------------------------------*/
 /*Section formulaire*/
 /*--------------------------------------------------------------------------------------------*/
 	#formulaire{
 		margin-left: 2rem;
-		margin-bottom: 4rem;
 	}
 
 	h1{
@@ -87,7 +90,7 @@
 
 	.populaire{
 		border-radius: 0rem;
-		width: 103%;
+		width: 105%;
 		padding: 0rem;
 	}
 
@@ -107,7 +110,7 @@
 	}
 
 	.populaire figcaption{
-		margin: -16rem 0rem 0rem 26.5rem;
+		margin: -16rem 0rem 0rem 20.5rem;
 		height: 100%;
 		padding-left: 1rem;
 	}
