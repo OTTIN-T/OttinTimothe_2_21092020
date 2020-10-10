@@ -1,4 +1,4 @@
-@media all and (min-width: 601px) and (max-width: 642px){
+@media all and (min-width: 543px) and (max-width: 600px){
 	header, section, aside{
 	margin: 0rem;
 	}
@@ -101,13 +101,13 @@
 
 	.populaire figure{
 		border-radius: 2rem;
-		height: 17rem;
+		height: 13.89rem;
 		margin: 0rem 0rem 3rem 0.5rem;
 	}
 
 	.populaire figcaption{
-		margin: -19.2rem 0rem 0rem 28.5rem;
-		height: 102%;
+		margin: -16rem 0rem 0rem 26.5rem;
+		height: 100%;
 		padding-left: 1rem;
 	}
 
@@ -123,12 +123,12 @@
 	}
 
 	.populaire .fa-star{
-		margin-top: 5rem;
-		font-size: 1.5rem;
+		margin-top: 2rem;
+		font-size: 1.2rem;
 	}
 
 	.populaire .etoile-coeur {
-    	margin-top: 3rem;
+    	margin-top: 2rem;
 	}
 
 /*--------------------------------------------------------------------------------------------*/
@@ -176,7 +176,7 @@
 	}
 
 	.img-mer{
-		object-position: 0% 100%;
+		object-position: 0% 144%;
 	}
 
 	.hebergements span{
@@ -198,16 +198,16 @@
 	}
 
 	.activite-large{
-		width: 48%;
+		width: 45%;
 		margin-bottom: 0rem;
 	}
 
 	.activite-colonne{
-		margin: -20rem 0rem 0rem 29rem;
+		margin: -20rem 0rem 0rem 26rem;
 	}
 	
 	.activite-petit {
-	    width: 90%;
+	    width: 86%;
 	    margin-left: 1rem;
 	}
 
@@ -216,7 +216,7 @@
 	}
 
 	.activite-petit-deux {
-	    width: 48%;
+	    width: 46%;
 	    margin-right: 2rem;
 	    padding-left: 0rem;
 	}
@@ -232,9 +232,9 @@
 	}
 
 	.activite-tablette {
-	    margin-left: 30rem;
+	    margin-left: 27rem;
 	    margin-top: -3rem;
-	    width: 47%;
+	    width: 45%;
 	}
 
 /*--------------------------------------------------------------------------------------------*/
