@@ -1,4 +1,4 @@
-@media all and (min-width: 426px) and (max-width: 542px)
+@media all and (min-width: 501px) and (max-width: 542px)
 {
 	header, section, aside{
 	margin: 0rem;
@@ -117,7 +117,7 @@
 
 	.populaire img{
 		object-position: 58% 55%;
-		width: 57%;
+		width: 47%;
 		border-radius: 2rem 0rem 0rem 2rem;
 	}
 
@@ -201,17 +201,22 @@
 	    margin-right: 0rem;
 	}
 
+	.activite h3{
+		padding-top: 1.5rem;
+	}
+
 	.activite-large{
 		width: 45%;
 		margin-bottom: 0rem;
 	}
 
 	.activite-colonne{
-		margin: -20rem 0rem 0rem 26rem;
+		margin: -20rem -3rem 0rem 25rem;
+		width: 45%;
 	}
 	
 	.activite-petit {
-	    width: 86%;
+	    width: 100%;
 	    margin-left: 1rem;
 	}
 
@@ -236,9 +241,13 @@
 	}
 
 	.activite-tablette {
-	    margin-left: 27rem;
+	    margin-left: 26rem;
 	    margin-top: -3rem;
 	    width: 45%;
+	}
+
+	.activite-tablette h3{
+		padding-top: 1rem;
 	}
 
 /*--------------------------------------------------------------------------------------------*/
@@ -247,7 +256,7 @@
 
 	#footer{
 		/*flex-direction: column;*/
-		width: 99%;
+		width: 100%;
 		padding: 0rem 0rem 0rem 2rem;
 	}
 

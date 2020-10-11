@@ -202,10 +202,11 @@
 
 	.activite-colonne{
 		margin: -20rem 0rem 0rem 28rem;
+		width: 41%;
 	}
 	
 	.activite-petit {
-	    width: 78%;
+	    width: 100%;
 	    margin-left: 1rem;
 	}
 
