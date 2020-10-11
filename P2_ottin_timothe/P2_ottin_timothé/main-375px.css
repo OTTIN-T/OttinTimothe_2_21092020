@@ -18,7 +18,7 @@
 	}
 
 	.menu{
-		padding: 0rem 0.5rem 0rem 0rem;
+		padding: 0rem 1rem 0rem 0rem;
 		border-bottom: 0.5rem solid #F2F2F2;
 		justify-content: center;
 		width: 100%;
@@ -48,18 +48,18 @@
 		display: flex;
 		flex-direction: column-reverse;
 		height: 0.5rem;
-	    width: 13.5rem;
-	    margin: 0rem -8rem 0rem -2rem;
-	    padding: 0rem 3rem 0rem 4rem !important;
+	    width: 100%;
+	    margin: 0rem 0rem 0rem -3rem;
+	    padding: 0rem 2rem 0rem 4rem !important;
 	}
 
 	.barre-deux{
 		display: flex;
 		flex-direction: column-reverse;
 		height: 0.5rem;
-		width: 12rem;
-	    margin: 0rem -7.5rem 0rem 8rem;
-	    padding: 0rem 1.5rem 0rem 6rem !important;		
+		width: 100%;
+	    margin: 0rem -5rem 0rem 2.5rem;
+	    padding: 0rem 2rem 0rem 6rem !important;		
 	}
 
 	.barre-une:hover, .barre-deux:hover{
@@ -163,7 +163,7 @@
 
 	.populaire{
 		border-radius: 0rem;
-		width: 104%;
+		width: 102.5%;
 		padding: 0rem 0rem 3rem 0rem;
 	}
 
@@ -186,6 +186,7 @@
 		margin: -16rem 0rem 0rem 12rem;
 		height: 100%;
 		padding-left: 1rem;
+		border-radius: 0rem 1rem 1rem 0rem;
 	}
 
 	.populaire img{

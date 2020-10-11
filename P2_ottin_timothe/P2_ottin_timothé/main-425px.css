@@ -18,10 +18,10 @@
 	}
 
 	.menu{
-		padding: 0rem 0.5rem 0rem 0rem;
+		padding: 0rem 4.5rem 0rem 0rem;
 		border-bottom: 0.5rem solid #F2F2F2;
 		justify-content: center;
-		width: 105%;
+		width: 100%;
 	}
 
 	.menu a {
@@ -48,18 +48,18 @@
 		display: flex;
 		flex-direction: column-reverse;
 		height: 0.5rem;
-	    width: 15rem;
-	    margin: 0rem -8rem 0rem -2rem;
-	    padding: 0rem 3rem 0rem 4rem !important;
+	    width: 100%;
+	    margin: 0rem 0rem 0rem -3rem;
+	    padding: 0rem 2rem 0rem 4rem !important;
 	}
 
 	.barre-deux{
 		display: flex;
 		flex-direction: column-reverse;
 		height: 0.5rem;
-		width: 12rem;
-	    margin: 0rem -9.5rem 0rem 10rem;
-	    padding: 0rem 1.5rem 0rem 8rem !important;		
+		width: 100%;
+	    margin: 0rem -3rem 0rem 7.5rem;
+	    padding: 0rem 0rem 0rem 6rem !important;		
 	}
 
 	.barre-une:hover, .barre-deux:hover{
@@ -165,7 +165,7 @@
 
 	.populaire{
 		border-radius: 0rem;
-		width: 110%;
+		width: 114%;
 		padding: 0rem;
 	}
 
@@ -226,8 +226,8 @@
  	}
 
  	.hebergements a{
- 		width: 100%;
- 		margin: 2rem 0rem 0rem 0.5rem;
+ 		width: 108%;
+ 		margin: 2rem 0rem 0rem 0rem;
  	}
 
  	.hebergements figure{
@@ -263,11 +263,12 @@
 /*--------------------------------------------------------------------------------------------*/
 	 
 	#activiteBlock{
-		margin: 2rem 1rem 2rem 4rem;
+		margin: 2rem 0rem 2rem 4rem;
 	}
 
 	.activite{
 		flex-direction: column;
+		width: 103%;
 	}
 
 	.activite-large, .activite-petit, .activite-petit-deux{
@@ -289,7 +290,7 @@
 
 	#footer{
 		flex-direction: column;
-		width: 105%;
+		width: 109%;
 		padding: 0rem 0rem 0rem 2rem;
 	}
 
