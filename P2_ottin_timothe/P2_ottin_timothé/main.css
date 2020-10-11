@@ -179,7 +179,7 @@ button{
 	padding: 1.5rem;
 	border-radius: 2.5rem;
 	font-size: 2rem;
-	margin-right: -9rem;
+	margin-right: -7rem;
 	/*Fait passer l'icon par dessus l'élément*/
 	z-index: 2;
 }
@@ -202,6 +202,7 @@ button{
 	border: 0.2rem #F2F2F2 solid;
 	padding: 0.8rem 1.2rem 0.8rem 1.2rem;
 	border-radius: 2.5rem;
+	margin-right: 1.5rem;
 }
 
 /*--------------------------------------------------------------------------------------------*/
@@ -232,7 +233,7 @@ button{
 }
 
 .hebergements a{
-	width: 28%;
+	width: 27%;
 	margin: 2rem 3rem 0.5rem 3rem;
 }
 
@@ -271,13 +272,15 @@ button{
 	background-color: white;
 	margin-top: -4rem;
 	height: 6.5rem;
-	width: 100%;
+	width: 101%;
+	border-radius: 0rem 0rem 1rem 1rem;
+	margin-left: -0.1rem;
 }
 
 .hebergements h3{
 	margin-top: 0.5rem;
 	margin-bottom: 0.3rem;
-	font-size: 1.4rem;
+	font-size: 1.5rem;
     padding-left: 1.5rem;
     padding-top: 1rem;
 }
@@ -291,7 +294,7 @@ button{
 }
 
 .hebergements span{
-	font-size: 1.55rem;
+	font-size: 1.8rem;
 	margin: 3rem 0rem 0rem 1rem;
 }
 
@@ -338,7 +341,7 @@ button{
 }
 
 .populaire img{
-	width: 40%;
+	width: 56%;
 	height: 100%;
 	border-radius: 1rem 0rem 0rem 1rem;
 	/*définit la façon dont img doit s'adapter*/
@@ -349,13 +352,13 @@ button{
 .populaire figcaption{
 	position: relative;
 	background-color: white;
-	margin: -16.6rem 0rem 2rem 19rem;
+	margin: -16.6rem 0rem 2rem 25rem;
 	height: 15rem;
 }
 
 .populaire h3{
 	margin-bottom: -0.5rem;
-	font-size: 1.7rem;
+	font-size: 1.5rem;
     padding-left: 2rem;
     padding-top: 1.5rem;
 }
@@ -468,7 +471,7 @@ button{
 .footer-menu{
 	display: flex;
 	flex-direction: column;
-	margin-right: 45rem;
+	margin-right: 38rem;
 }
 
 .footer-menu h2{

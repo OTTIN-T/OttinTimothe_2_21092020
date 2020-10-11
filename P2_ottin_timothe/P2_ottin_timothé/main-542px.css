@@ -255,7 +255,6 @@
 /*--------------------------------------------------------------------------------------------*/
 
 	#footer{
-		/*flex-direction: column;*/
 		width: 100%;
 		padding: 0rem 0rem 0rem 2rem;
 	}
@@ -263,5 +262,4 @@
 	.footer-menu{
 		margin-right: 0rem;	
 	}
-}
 }

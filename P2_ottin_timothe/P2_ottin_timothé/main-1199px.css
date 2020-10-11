@@ -1,0 +1,138 @@
+@media all and (min-width: 1000px) and (max-width: 1199px){
+	header, section, aside {
+	    margin: 0rem 1rem 0rem 2rem;
+	}
+/*--------------------------------------------------------------------------------------------*/
+/*Partie filtre*/
+/*--------------------------------------------------------------------------------------------*/
+	#filtres{
+		max-width: 86%;
+	}
+
+	.element-filtre {
+	    padding: 1.2rem 2rem 1.2rem 5.5rem;
+	}
+
+	.fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog {
+	    margin-right: -6rem;
+	}
+
+	.infos{
+		max-width: 45%;
+	}
+
+/*--------------------------------------------------------------------------------------------*/
+/*Partie hébergements*/
+/*--------------------------------------------------------------------------------------------*/	
+	
+	.hebergements{
+		margin-left: -2rem;
+	}
+
+	.hebergements-titre{
+		width: 65%;
+		padding: 2rem 2rem 1rem 1rem;
+	}
+
+	.hebergements a {
+	    width: 30%;
+	    margin: 2rem 0rem 0.5rem 2rem;
+	}
+
+	.hebergements img{
+		height: 15rem;
+	}
+
+	.hebergements span{
+		margin: 4rem 0rem 0rem 1rem;
+	}
+/*--------------------------------------------------------------------------------------------*/
+/*Partie populaire*/
+/*--------------------------------------------------------------------------------------------*/
+	
+	.populaire{
+		width: 26%;
+	}
+
+	.populaire h2{
+		margin-left: 1rem;
+		margin-right: -0.5rem;
+	}
+
+	.populaire figure{
+		height: 12rem;
+	}
+
+	.populaire figcaption{
+		margin: -14.4rem 0rem 2rem 10rem;
+		height: 13rem;
+		border-radius: 0rem 1rem 1rem 0rem;
+	}
+
+	.populaire h3{
+		padding-left: 1rem;
+	}
+
+	.populaire p{
+		padding-left: 1rem;
+		font-size: 1.3rem;
+    	width: 13rem;
+	}
+
+	.populaire img{
+		object-position: 120% 54%;
+	}
+
+	.populaire .fa-star {
+    	margin-top: 2rem;
+	}
+
+	.populaire .etoile-coeur {
+    	margin-top: 0.5rem;
+	}
+
+/*--------------------------------------------------------------------------------------------*/
+/*Partie activités*/
+/*--------------------------------------------------------------------------------------------*/
+	
+	#activiteBlock {
+    margin: 7rem 6rem 4rem 3rem;
+	}
+
+	.activite-large {
+	    width: 23%;
+	}
+
+	.activite-large img {
+	    height: 37rem;
+	}
+
+	.activite-petit {
+	    width: 23rem;
+	    margin-bottom: 0rem;
+	}
+
+	.activite-petit .fort {
+	    height: 19rem;
+	}
+
+	.activite-petit .frioul {
+	    height: 15rem;
+	}
+
+	.activite-tablette h3{
+		padding-top: 1rem;
+	}
+
+	.activite-petit-deux {
+	    width: 24.2rem;
+	}
+/*--------------------------------------------------------------------------------------------*/
+/*Partie footer*/
+/*--------------------------------------------------------------------------------------------*/
+	
+	.footer-menu{
+		margin-right: 22rem;
+	}
+
+}
