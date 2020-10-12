@@ -1,0 +1,253 @@
+@media all and (min-width: 601px) and (max-width: 642px){
+	header, section, aside{
+	margin: 0rem;
+	}
+/*--------------------------------------------------------------------------------------------*/
+/*Partie header*/
+/*--------------------------------------------------------------------------------------------*/
+	.menu a{
+		padding: 3.6rem 2rem;;
+	}
+
+	.logo{
+		margin-left: 2rem;
+	}
+/*--------------------------------------------------------------------------------------------*/
+/*Section formulaire*/
+/*--------------------------------------------------------------------------------------------*/
+	#formulaire{
+		margin-left: 2rem;
+		margin-bottom: 4rem;
+	}
+
+	h1{
+		font-size: 2rem;
+	}
+
+	h1 + p {
+    font-size: 1.7rem;
+	}
+
+	#lieux {
+	    font-size: 1.7rem;
+	    margin-left: -0.5rem;
+	    padding: 1.2rem 0rem 1.08rem 1.3rem;
+	}
+
+	.recherche{
+		margin-left: -4.5rem;
+		padding: 1.3rem 1rem 1.1rem 1rem;
+	    font-size: 1.7rem;
+	}
+
+	button{
+		display: none;
+	}
+/*--------------------------------------------------------------------------------------------*/
+/*Partie filtre*/
+/*--------------------------------------------------------------------------------------------*/
+	#filtres{
+		flex-direction: column;
+		align-items: flex-start;
+		margin-left: 2rem;
+		max-width: 100%;
+	}
+
+	.element-filtre{
+		margin: -5rem 1rem 1.5rem 0.5rem;
+		padding: 1.2rem 2rem 1.2rem 5rem;
+	}
+
+	.filtre-familial {
+    	margin: -7rem 0rem 0rem 21rem;
+	}
+
+	.fa-child{
+		margin: -6.5rem 0rem 2rem 21rem;
+	}
+
+	.infos{
+		justify-content: flex-start;
+		max-width: 80%;
+		font-size: 1.5rem;
+    	margin-left: 2rem;
+	}
+
+	.fa-info{
+		margin-right: 1rem;
+	}
+
+/*--------------------------------------------------------------------------------------------*/
+/*Partie populaire*/
+/*--------------------------------------------------------------------------------------------*/
+	#galerie{
+		flex-direction: column-reverse;
+	}
+
+	.populaire{
+		border-radius: 0rem;
+		width: 103%;
+		padding: 0rem;
+	}
+
+	.populaire h2{
+		margin-left: 2rem;
+	}
+
+	.populaire a{
+		width: 94%;
+		margin-left: 3rem;
+	}
+
+	.populaire figure{
+		border-radius: 2rem;
+		height: 17rem;
+		margin: 0rem 0rem 3rem 0.5rem;
+	}
+
+	.populaire figcaption{
+		margin: -19.2rem 0rem 0rem 28.5rem;
+		height: 102%;
+		padding-left: 1rem;
+	}
+
+	.populaire img{
+		object-position: 58% 55%;
+		width: 57%;
+		border-radius: 2rem 0rem 0rem 2rem;
+	}
+
+	.populaire p, .populaire h3{
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+
+	.populaire .fa-star{
+		margin-top: 5rem;
+		font-size: 1.5rem;
+	}
+
+	.populaire .etoile-coeur {
+    	margin-top: 3rem;
+	}
+
+/*--------------------------------------------------------------------------------------------*/
+/*Partie hébergements*/
+/*--------------------------------------------------------------------------------------------*/
+ 	
+ 	.hebergements-titre{
+ 		width: 100%;
+    	background-color: inherit;
+ 	}
+
+ 	.hebergements{
+ 		margin-left: 1rem;
+ 	}
+
+ 	.hebergements-titre h2 {
+    	margin-left: 1rem;
+	}
+
+ 	.hebergements a{
+ 		width: 44%;
+ 		margin: 2rem 1rem 0.5rem 1rem;
+ 	}
+
+ 	.hebergements img{
+ 		height: 15rem;
+ 	}
+
+ 	.hebergements figcaption{
+ 		width: 101%;
+	    margin-left: -0.1rem;
+	    border-radius: 0rem 0rem 1rem 1rem;
+ 	}
+
+ 	.hebergements h3{
+ 		padding-left: 1rem;
+ 	}
+
+ 	.hebergements p{
+ 		padding-left: 1rem;
+ 	}
+
+ 	.img-cannebiere, .img-port, .img-mouettes {
+    	object-position: 0% 180%;
+	}
+
+	.img-mer{
+		object-position: 0% 100%;
+	}
+
+	.hebergements span{
+ 		margin-bottom: 1rem;
+ 	}
+/*--------------------------------------------------------------------------------------------*/
+/*Partie activités*/
+/*--------------------------------------------------------------------------------------------*/
+	 
+	#activiteBlock{
+		margin: 2rem 0rem 3rem 2rem;
+	}
+
+	.activite {
+	    padding-left: 0rem;
+	    flex-direction: column;
+	    margin-left: 1rem;
+	    margin-right: 0rem;
+	}
+
+	.activite-large{
+		width: 48%;
+		margin-bottom: 0rem;
+	}
+
+	.activite-colonne{
+		margin: -20rem 0rem 0rem 29rem;
+		width: 47%;
+	}
+	
+	.activite-petit {
+	    width: 100%;
+	    margin-left: 1rem;
+	}
+
+	.frioul{
+		margin-top: -3rem;
+	}
+
+	.activite-petit-deux {
+	    width: 48%;
+	    margin-right: 2rem;
+	    padding-left: 0rem;
+	}
+
+	.activite-large img, .activite-petit img, .activite-petit-deux img, .activite-petit .fort, .activite-petit .frioul{
+		height: 17rem;
+	}
+
+	.activite-colonne-deux {
+	    display: flex;
+	    flex-direction: column;
+	    margin-top: -40.2rem;
+	}
+
+	.activite-tablette {
+	    margin-left: 30rem;
+	    margin-top: -3rem;
+	    width: 47%;
+	}
+
+/*--------------------------------------------------------------------------------------------*/
+/*Partie footer*/
+/*--------------------------------------------------------------------------------------------*/
+
+	#footer{
+		width: 100%;
+		padding: 0rem 0rem 0rem 2rem;
+	}
+
+	.footer-menu{
+		margin-right: 0rem;	
+	}
+}
