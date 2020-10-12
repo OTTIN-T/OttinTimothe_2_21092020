@@ -7,15 +7,15 @@
 /*Partie header*/
 /*--------------------------------------------------------------------------------------------*/
 	.menu a{
-		padding: 3.6rem 1rem;;
+		padding: 3.6rem 2.5rem;;
 	}
 
 	.logo{
 		margin-left: 2rem;
 	}
 
-	.inscription{
-		margin-right: -2rem;
+	.inscription {
+	    margin-right: 0rem;
 	}
 /*--------------------------------------------------------------------------------------------*/
 /*Section formulaire*/
@@ -90,7 +90,7 @@
 
 	.populaire{
 		border-radius: 0rem;
-		width: 105%;
+		width: 100%;
 		padding: 0rem;
 	}
 
@@ -140,7 +140,8 @@
 /*--------------------------------------------------------------------------------------------*/
  	
  	.hebergements-titre{
- 		width: 100%;
+ 		width: 96%;
+ 		padding: 2rem 0rem 1rem 2rem;
     	background-color: inherit;
  	}
 
@@ -191,7 +192,7 @@
 /*--------------------------------------------------------------------------------------------*/
 	 
 	#activiteBlock{
-		margin: 2rem 0rem 3rem 2rem;
+		margin: 2rem 3rem 3rem 2rem;
 	}
 
 	.activite {
@@ -255,8 +256,12 @@
 /*--------------------------------------------------------------------------------------------*/
 
 	#footer{
-		width: 100%;
+		width: 96%;
 		padding: 0rem 0rem 0rem 2rem;
+	}
+	
+	.footer-menu h2 {
+    	font-size: 1.7rem;
 	}
 
 	.footer-menu{

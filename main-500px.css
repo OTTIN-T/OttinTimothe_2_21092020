@@ -14,9 +14,6 @@
 		margin-left: 2rem;
 	}
 
-	.inscription{
-		margin-right: -2rem;
-	}
 /*--------------------------------------------------------------------------------------------*/
 /*Section formulaire*/
 /*--------------------------------------------------------------------------------------------*/
@@ -90,7 +87,7 @@
 
 	.populaire{
 		border-radius: 0rem;
-		width: 105%;
+		width: 100%;
 		padding: 0rem;
 	}
 
@@ -112,7 +109,6 @@
 	.populaire figcaption{
 		margin: -16rem 0rem 0rem 20.5rem;
 		height: 102%;
-		padding-left: 1rem;
 	}
 
 	.populaire img{
@@ -140,12 +136,9 @@
 /*--------------------------------------------------------------------------------------------*/
  	
  	.hebergements-titre{
- 		width: 100%;
+ 		width: 96%;
     	background-color: inherit;
- 	}
-
- 	.hebergements{
- 		margin-left: 1rem;
+    	padding: 2rem 0rem 1rem 1rem;
  	}
 
  	.hebergements-titre h2 {
@@ -195,9 +188,9 @@
 	}
 
 	.activite {
-	    padding-left: 0rem;
+	    padding-left: 0.5rem;
 	    flex-direction: column;
-	    margin-left: 1rem;
+	    margin-left: 0.5rem;
 	    margin-right: 0rem;
 	}
 
@@ -212,7 +205,7 @@
 
 	.activite-colonne{
 		margin: -20rem -3rem 0rem 21rem;
-		width: 45%;
+		width: 42%;
 	}
 	
 	.activite-petit {
@@ -243,7 +236,7 @@
 	.activite-tablette {
 	    margin-left: 22rem;
 	    margin-top: -3rem;
-	    width: 45%;
+	    width: 43%;
 	}
 
 	.activite-tablette h3{
@@ -255,12 +248,16 @@
 /*--------------------------------------------------------------------------------------------*/
 
 	#footer{
-		/*flex-direction: column;*/
-		width: 99%;
-		padding: 0rem 0rem 0rem 2rem;
+		width: 96%;
+		padding: 0rem 0rem 0rem 1rem;
+	}
+	
+	.footer-menu h2 {
+    	font-size: 1.5rem;
 	}
 
 	.footer-menu{
 		margin-right: 0rem;	
+		font-size: 1.3rem;
 	}
 }
