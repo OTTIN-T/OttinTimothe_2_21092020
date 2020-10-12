@@ -49,7 +49,6 @@ nav a{
 .menu{
 	/*Colle le menu à droite*/
 	display: flex;
-	list-style: none;
   	justify-content: flex-end;
 }
 
@@ -111,15 +110,6 @@ label{
 	/*Change la couleur d'écriture du placeholder*/
 	color: black;
 }
-
-/*Ne marche pas ?*/
-#lieux::-webkit-input-placeholder{
-	color: black;
-}
-#lieux.studentid:-ms-input-placeholder{
-	color: black;
-}
-/*Ne marche pas ?*/
 
 .recherche{
 	color: white;
@@ -352,7 +342,7 @@ button{
 .populaire figcaption{
 	position: relative;
 	background-color: white;
-	margin: -16.6rem 0rem 2rem 25rem;
+	margin: -16.4rem 0rem 2rem 25rem;
 	height: 15rem;
 	border-radius: 0rem 1rem 1rem 0rem;
 }
