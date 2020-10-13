@@ -18,7 +18,7 @@
 	}
 
 	.menu{
-		padding: 0rem 1rem 0rem 0rem;
+		padding: 0rem 0rem 0rem 0rem;
 		border-bottom: 0.5rem solid #F2F2F2;
 		justify-content: center;
 		width: 100%;
@@ -49,7 +49,7 @@
 		flex-direction: column-reverse;
 		height: 0.5rem;
 	    width: 100%;
-	    margin: 0rem 0rem 0rem -3rem;
+	    margin: 0rem 0rem 0rem -4rem;
 	    padding: 0rem 2rem 0rem 4rem !important;
 	}
 
@@ -58,8 +58,8 @@
 		flex-direction: column-reverse;
 		height: 0.5rem;
 		width: 100%;
-	    margin: 0rem -5rem 0rem 2.5rem;
-	    padding: 0rem 2rem 0rem 6rem !important;		
+	    margin: 0rem -5rem 0rem 3rem;
+	    padding: 0rem 2rem 0rem 5rem !important;		
 	}
 
 	.barre-une:hover, .barre-deux:hover{
@@ -87,7 +87,7 @@
 	}
 
 	label {
-	    padding: 1.5rem 1.8rem 1.3rem 1.8rem;
+	    padding: 1.6rem 1.8rem 1.3rem 1.8rem;
 	    border-radius: 1.1rem 0rem 0rem 1.1rem;
 		position: relative;
 	}
@@ -99,7 +99,7 @@
 	#lieux {
 	    font-size: 2rem;
 	    margin-left: -0.5rem;
-	    padding: 0.8rem 0rem 1.1rem 1.8rem;
+	    padding: 1rem 0rem 1.1rem 1.8rem;
 	}
 
 	.recherche{
@@ -110,9 +110,9 @@
 		display: inline;
 		color: white;
 		font-size: 2rem;
-		margin-left: -3rem;
+		margin-left: -4rem;
 		background-color: #0065FC;
-		padding: 1rem 1.5rem 1.2rem 1.5rem;
+		padding: 1.1rem 1.5rem 1.3rem 1.5rem;
 		border-radius: 1.2rem 1rem 1rem 1rem;
 		border: none;
 	}
@@ -163,7 +163,7 @@
 
 	.populaire{
 		border-radius: 0rem;
-		width: 102.5%;
+		width: 100%;
 		padding: 0rem 0rem 3rem 0rem;
 	}
 
@@ -172,7 +172,7 @@
 	}
 
 	.populaire a{
-		width: 96%;
+		width: 94%;
 		margin-left: 2rem;
 	}
 
@@ -226,16 +226,16 @@
 
  	.hebergements{
  		flex-direction: column;
- 		margin-left: 1rem;
+ 		margin-left: 0rem;
  	}
 
  	.hebergements a{
- 		width: 100%;
- 		margin: 2rem 0rem 0rem 0.5rem;
+ 		width: 84%;
+ 		margin: 2rem 0rem 0rem 2.5rem;
  	}
 
  	.hebergements figure{
- 		width: 90%;
+ 		width: 100%;
  	}
 
  	.hebergements img{
@@ -267,11 +267,13 @@
 /*--------------------------------------------------------------------------------------------*/
 	 
 	#activiteBlock{
-		margin: 2rem 1rem 2rem 3rem;
+		margin: 2rem 1rem 2rem 2rem;
+		width: 88%;
 	}
 
 	.activite{
 		flex-direction: column;
+		margin-left: 1rem;
 	}
 
 	.activite-large, .activite-petit, .activite-petit-deux{
@@ -293,11 +295,12 @@
 
 	#footer{
 		flex-direction: column;
-		width: 98%;
-		padding: 0rem 0rem 0rem 2rem;
+		width: 100%;
+		padding: 0rem 0rem 0rem 0rem;
 	}
 
 	.footer-menu{
 		margin-right: 0rem;	
+		padding-left: 2rem;
 	}
 }

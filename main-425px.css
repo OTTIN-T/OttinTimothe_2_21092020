@@ -18,7 +18,7 @@
 	}
 
 	.menu{
-		padding: 0rem 4.5rem 0rem 0rem;
+		padding: 0rem 0rem 0rem 0rem;
 		border-bottom: 0.5rem solid #F2F2F2;
 		justify-content: center;
 		width: 100%;
@@ -49,8 +49,8 @@
 		flex-direction: column-reverse;
 		height: 0.5rem;
 	    width: 100%;
-	    margin: 0rem 0rem 0rem -3rem;
-	    padding: 0rem 2rem 0rem 4rem !important;
+	    margin: 0rem 0rem 0rem -5rem;
+	    padding: 0rem 2rem 0rem 5rem !important;
 	}
 
 	.barre-deux{
@@ -58,8 +58,8 @@
 		flex-direction: column-reverse;
 		height: 0.5rem;
 		width: 100%;
-	    margin: 0rem -3rem 0rem 7.5rem;
-	    padding: 0rem 0rem 0rem 6rem !important;		
+	    margin: 0rem -3rem 0rem 4.5rem;
+	    padding: 0rem 0rem 0rem 6.5rem !important;		
 	}
 
 	.barre-une:hover, .barre-deux:hover{
@@ -153,7 +153,7 @@
 	.infos{
 		max-width: 100%;
 		font-size: 1.5rem;
-		margin: 2rem 0.5rem 7rem 2rem;
+		margin: 2rem 0.5rem 3rem 2rem;
 	}
 
 /*--------------------------------------------------------------------------------------------*/
@@ -165,12 +165,12 @@
 
 	.populaire{
 		border-radius: 0rem;
-		width: 114%;
+		width: 100%;
 		padding: 0rem;
 	}
 
 	.populaire a{
-		width: 96%;
+		width: 95%;
 	}
 
 	.populaire figure{
@@ -180,7 +180,7 @@
 	}
 
 	.populaire figcaption{
-		margin: -16rem 0rem 0rem 18rem;
+		margin: -16rem 0rem 0rem 16rem;
 		height: 102%;
 		padding-left: 1rem;
 	}
@@ -222,16 +222,16 @@
 
  	.hebergements{
  		flex-direction: column;
- 		margin-left: 1rem;
+ 		margin-left: -1rem;
  	}
 
  	.hebergements a{
- 		width: 108%;
+ 		width: 100%;
  		margin: 2rem 0rem 0rem 0rem;
  	}
 
  	.hebergements figure{
- 		width: 90%;
+ 		width: 80%;
  	}
 
  	.hebergements img{
@@ -263,12 +263,13 @@
 /*--------------------------------------------------------------------------------------------*/
 	 
 	#activiteBlock{
-		margin: 2rem 0rem 2rem 4rem;
+		margin: 2rem 0rem 2rem 3rem;
+		width: 90%;
 	}
 
 	.activite{
 		flex-direction: column;
-		width: 103%;
+		width: 93%;
 	}
 
 	.activite-large, .activite-petit, .activite-petit-deux{
@@ -290,7 +291,7 @@
 
 	#footer{
 		flex-direction: column;
-		width: 109%;
+		width: 95%;
 		padding: 0rem 0rem 0rem 2rem;
 	}
 

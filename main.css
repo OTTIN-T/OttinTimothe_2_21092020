@@ -49,7 +49,7 @@ nav a{
 .menu{
 	/*Colle le menu à droite*/
 	display: flex;
-  	justify-content: flex-end;
+  	justify-content: flex-end; 	
 }
 
 .menu a{
@@ -66,6 +66,7 @@ nav a{
 .inscription{
 	color: #0065FC;
 }
+
 
 
 /*--------------------------------------------------------------------------------------------*/
@@ -92,6 +93,7 @@ label{
 	background-color: #F2F2F2;
     padding: 1.5rem 1.8rem 1.2rem 1.8rem;
     border-radius: 1.5rem 0rem 0rem 1.5rem;
+    
 }
 
 .fa-map-marker-alt{
@@ -117,7 +119,7 @@ label{
 	margin-left: -0.5rem;
 	background-color: #0065FC;
     padding: 1.05rem 2rem 1.08rem 1.5rem;
-    border-radius: 0rem 1.5rem 1.5rem 0rem;
+    border-radius: 0rem 1.5rem 1.5rem 0rem;   
     /*Pour faire disparaitre la bordure par défaut du input*/
 	border: 0.1rem white solid;
 }
@@ -127,6 +129,7 @@ label{
 	background-color: white;
 	border-color: #0065FC;
 }
+
 button{
 	display: none;
 }
@@ -135,7 +138,7 @@ button{
 /*--------------------------------------------------------------------------------------------*/
 #filtres{
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-between;	 
 	align-items: center;
 	/*Donne une limite au space-between*/
 	max-width: 55%;
@@ -148,7 +151,7 @@ button{
 .element-filtre{
 	font-size: 1.7rem;
 	border: 0.3rem #F2F2F2 solid;
-	border-radius: 2.5rem;
+	border-radius: 2.5rem;	
 	padding: 1.2rem 2rem 1.2rem 6rem;
 	/*Fait passer l'élément en dessous de l'icon*/
 	z-index: 1;
@@ -158,8 +161,9 @@ button{
 	color: #0065FC;;
 	background: #DEEBFF;
 	/*Fait grossir l'élément*/
-	transform: scale(1.1);
+	transform: scale(1.1);	
 	transition: all 0.3s ease-out;
+	
 }
 
 .fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog{
@@ -181,8 +185,8 @@ button{
 
 .infos{
 	display: flex;
-	justify-content: space-between;
-	align-items: center;
+	justify-content: space-between;	
+	align-items: center;	
 	/*Donne une limite au space-between*/
 	max-width: 24%;
 }
@@ -191,7 +195,7 @@ button{
 	color: #0065FC;
 	border: 0.2rem #F2F2F2 solid;
 	padding: 0.8rem 1.2rem 0.8rem 1.2rem;
-	border-radius: 2.5rem;
+	border-radius: 2.5rem;	
 	margin-right: 1.5rem;
 }
 
@@ -200,14 +204,14 @@ button{
 /*--------------------------------------------------------------------------------------------*/
 #galerie{
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-between;	 
 	height: 100%;
 }
 
 .hebergements-titre{
 	background-color: #F2F2F2;
 	padding: 2rem 1rem 1rem 1rem;
-	border-radius: 2rem;
+	border-radius: 2rem;	
 	width: 62%;
 }
 
@@ -239,7 +243,7 @@ button{
 .hebergements img{
 	width: 100%;
 	height: 17rem;
-	border-radius: 2rem 2rem 0rem 0rem;
+	border-radius: 2rem 2rem 0rem 0rem;	
 	/*définit la façon dont img doit s'adapter*/
 	object-fit: cover;
 }
@@ -263,7 +267,7 @@ button{
 	margin-top: -4rem;
 	height: 6.5rem;
 	width: 101%;
-	border-radius: 0rem 0rem 1rem 1rem;
+	border-radius: 0rem 0rem 1rem 1rem;	
 	margin-left: -0.1rem;
 }
 
@@ -303,16 +307,18 @@ button{
 .populaire{
 	background-color: #F2F2F2;
 	padding: 2rem;
-	border-radius: 2rem;
+	border-radius: 2rem;	
 	width: 30%;	
 	display: flex;
 	flex-direction: column;
+	
+
 }
 
 .populaire h2{
 	margin-left: 1.5rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
     margin-right: 1.5rem;
 }
 
@@ -326,14 +332,15 @@ button{
     width: 90%;
     height: 14rem;
     border: 0.5rem white solid;
-    box-shadow: 0rem 0.5rem 1rem #c3c1c1;
+    box-shadow: 0rem 0.5rem 1rem #c3c1c1;  
     border-radius: 1rem;
+    
 }
 
 .populaire img{
 	width: 56%;
 	height: 100%;
-	border-radius: 1rem 0rem 0rem 1rem;
+	border-radius: 1rem 0rem 0rem 1rem;	
 	/*définit la façon dont img doit s'adapter*/
 	object-fit: cover;
 	object-position: 0% 54%;
@@ -345,6 +352,7 @@ button{
 	margin: -16.4rem 0rem 2rem 25rem;
 	height: 15rem;
 	border-radius: 0rem 1rem 1rem 0rem;
+	
 }
 
 .populaire h3{
@@ -377,7 +385,7 @@ button{
 
 .activite{
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-between;	
 	margin-top: -1rem;
 }
 
@@ -386,11 +394,13 @@ button{
 	width: 100%;
 	margin-left: 0rem;
 	box-shadow: 0rem 0.5rem 1rem #c3c1c1;
-	border-radius: 2rem;
+	
+	border-radius: 2rem;	
 }
 
 .activite img{
 	border-radius: 2rem; 
+	
 	object-fit: cover;
 	width: 100%;
 }
@@ -440,14 +450,13 @@ button{
 	height: 5.2rem;
 	margin-top: -7rem;
 	padding-left: 2rem;
-	border-radius: 0rem 0rem 2rem 2rem;
+	border-radius: 0rem 0rem 2rem 2rem;	
 }
 
 .activite h3{
 	padding-top: 2rem;
 	font-size: 1.5rem;
 }
-
 
 /*--------------------------------------------------------------------------------------------*/
 /*Partie footer*/
@@ -456,12 +465,14 @@ button{
 	background-color: #F2F2F2;
     display: flex;
     justify-content: space-between;
+    
     padding: 2rem 0rem 0rem 3rem;
 }
 
 .footer-menu{
 	display: flex;
 	flex-direction: column;
+	
 	margin-right: 38rem;
 }
 

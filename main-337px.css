@@ -18,7 +18,7 @@
 	}
 
 	.menu{
-		padding: 0rem 2rem 0rem 0rem;
+		padding: 0rem 0rem 0rem 0rem;
 		border-bottom: 0.5rem solid #F2F2F2;
 		justify-content: center;
 		width: 100%;
@@ -33,7 +33,7 @@
 	}
 
 	.menu-responsive{
-	    margin: 10rem -5rem -0.5rem 0rem;
+	    margin: 10rem -1rem -0.5rem 0rem;
 	}
 
 	.menu-activite-responsive{
@@ -44,22 +44,22 @@
 		line-height: 7rem;
 	}
 
-	.barre-une{
+	.barre-une{ 
 		display: flex;
 		flex-direction: column-reverse;
 		height: 0.5rem;
-	    width: 10rem;
-	    margin: 0rem -4rem 0rem 0rem;
-	    padding: 0rem 5rem 0rem 3.5rem !important;
+		width: 100%;
+		margin: 0rem 0rem 0rem -4rem;
+		padding: 0rem 2rem 0rem 4rem !important;
 	}
 
 	.barre-deux{
 		display: flex;
 		flex-direction: column-reverse;
 		height: 0.5rem;
-		width: 7rem;
-	    margin: 0rem -3.5rem 0rem 10rem;
-	    padding: 0rem 4.5rem 0rem 5rem !important;		
+		width: 100%;
+		margin: 0rem -7rem 0rem 3rem;
+		padding: 0rem 1.3rem 0rem 5rem !important;		
 	}
 
 	.barre-une:hover, .barre-deux:hover{
@@ -69,37 +69,38 @@
 /*Section formulaire*/
 /*--------------------------------------------------------------------------------------------*/
 	#formulaire{
-		margin: 8rem 1rem 0rem 1.5rem;
+		margin: 7rem 1rem 0rem 1rem;
 	}
 
 	form{
-		margin: 3rem 1rem 1rem 0rem;
+		margin: 2rem 0rem 0rem 1rem;
 	}
-
+	
 	h1{
 		font-size: 2rem;
 		margin-bottom: 0rem;
-		margin-right: 2rem;
+		margin-left: 1rem;
 	}
 
 	h1 + p{
-		font-size: 1.6rem;
+		font-size: 1.5rem;
+		margin-left: 1rem;
 	}
 
 	label {
-	    padding: 1.5rem 1.8rem 1.3rem 1.8rem;
-	    border-radius: 1.1rem 0rem 0rem 1.1rem;
+		padding: 1.25rem 1.4rem 1.25rem 1.4rem;
+		border-radius: 1.2rem 0rem 0rem 1.2rem;
 		position: relative;
 	}
 
 	.fa-map-marker-alt {
-    	font-size: 1.8rem;
+    	font-size: 1.6rem;
 	}
 
 	#lieux {
 	    font-size: 1.5rem;
-	    margin-left: -1.5rem;
-	    padding: 1.4rem 1rem 1.1rem 1.8rem;
+	    margin-left: -1.8rem;
+	    padding: 1.15rem 0rem 1.15rem 2rem;
 	}
 
 	.recherche{
@@ -109,16 +110,12 @@
 	button{
 		display: inline;
 		color: white;
-		font-size: 2rem;
-		margin-left: -2rem;
+		font-size: 1.5rem;
+		margin-left: -1.5rem;
 		background-color: #0065FC;
-		padding: 1rem 1.5rem 1.2rem 1.5rem;
+		padding: 1.1rem 1.3rem 1.2rem 1.2rem;
 		border-radius: 1.2rem 1rem 1rem 1rem;
 		border: none;
-	}
-
-	.fa-search{
-		font-size: 1.5rem;
 	}
 
 /*--------------------------------------------------------------------------------------------*/
@@ -127,21 +124,26 @@
 	#filtres{
 		flex-direction: column;
 		align-items: flex-start;
-		margin-left: 2rem;
+		margin-left: 1.5rem;
 		max-width: 100%;
 	}
 
 	.element-filtre{
-		margin: -5rem 0rem 1.5rem 0.5rem;
+		margin: -4.7rem 0rem 1.5rem 0.5rem;
 		padding: 1.2rem 1rem 1.2rem 5rem;
+		font-size: 1.5rem;
 	}
 
 	.filtre-familial {
-    	margin: -7rem 0rem 0rem 19rem;
+    	margin: -6.7rem 0rem 0rem 17rem;
+	}
+
+	.fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog {
+		font-size: 1.5rem;
 	}
 
 	.fa-child{
-		margin: -6.5rem 0rem 2rem 19rem;
+		margin: -6rem 0rem 2rem 17.2rem;
 	}
 
 	.fa-info{
@@ -151,7 +153,7 @@
 	.infos{
 		max-width: 100%;
 		font-size: 1.5rem;
-		margin: 2rem 0rem 7rem 2rem;
+		margin: 2rem 0.5rem 4rem 2rem;
 	}
 
 /*--------------------------------------------------------------------------------------------*/
@@ -163,13 +165,13 @@
 
 	.populaire{
 		border-radius: 0rem;
-		width: 107%;
+		width: 100%;
 		padding: 0rem 0rem 3rem 0rem;
 	}
 
 	.populaire a{
-		width: 96%;
-		margin-left: 2rem;
+		width: 95%;
+		margin-left: 1.5rem;
 	}
 
 	.populaire figure{
@@ -186,7 +188,7 @@
 
 	.populaire img{
 		object-position: 58% 55%;
-		width: 42%;
+		width: 50%;
 		border-radius: 2rem 0rem 0rem 2rem;
 	}
 
@@ -201,7 +203,7 @@
 	}
 
 	.populaire .etoile-coeur {
-    	margin-top: 2rem;	
+    	margin-top: 2rem;
 	}
 
 /*--------------------------------------------------------------------------------------------*/
@@ -225,8 +227,8 @@
  	}
 
  	.hebergements a{
- 		width: 100%;
- 		margin: 2rem 0rem 0rem 0.5rem;
+ 		width: 95%;
+		margin: 2rem 0rem 0rem 0rem;
  	}
 
  	.hebergements figure{
@@ -262,7 +264,8 @@
 /*--------------------------------------------------------------------------------------------*/
 	 
 	#activiteBlock{
-		margin: 2rem 1rem 2rem 3rem;
+		margin: 2rem 1rem 2rem 2rem;
+		width: 87%;
 	}
 
 	.activite{
@@ -286,13 +289,14 @@
 /*Partie footer*/
 /*--------------------------------------------------------------------------------------------*/
 
-	#footer{
+	#footer {
 		flex-direction: column;
-		width: 102%;
-		padding: 0rem 0rem 0rem 2rem;
+		width: 100%;
+		padding: 0rem 0rem 0rem 0rem;
 	}
 
-	.footer-menu{
+	.footer-menu {
 		margin-right: 0rem;	
+		padding-left: 3rem;
 	}
 }
