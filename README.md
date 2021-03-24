@@ -6,3 +6,6 @@ La maquette était fournie par OpenClassrooms.
 Le site ce doit d'être responsive tout format et valider les W3C validators.
 # OttinTimothe_2_21092020
 ###################################################################################################
+
+Retrouvez une version améliorée réalisée une fois la formation terminée ===>
+https://github.com/OTTIN-T/V2-Projet2-Reservia-OCR
