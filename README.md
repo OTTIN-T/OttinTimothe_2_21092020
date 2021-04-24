@@ -9,9 +9,9 @@ La maquette était fournie par OpenClassrooms. Le site devait responsive et vali
 
 Je possédais quelques fondations fragiles en HTML5 et CSS3, que j'ai pu consolider avec ce projet.
 
-Ce projet fus réalisé en quasi-totale autonomie. Je possédais l'aide d'un mentor OpenClassrooms une fois par semaine. 
+Ce projet fut réalisé en quasi-totale autonomie. Je possédais l'aide d'un mentor OpenClassrooms une fois par semaine. 
 
-Ce projet fus évalué par un mentor évaluateur OpenClassrooms qui validais si le projet était conforme aux attentes lors d'une soutenance.
+Ce projet fut évalué par un mentor évaluateur OpenClassrooms qui validait si le projet était conforme aux attentes lors d'une soutenance.
 
 Retrouvez une version améliorée: [réalisée une fois la formation terminée](https://github.com/OTTIN-T/V2-Projet2-Reservia-OCR).
 
