@@ -13,7 +13,7 @@ Ce projet fut réalisé en quasi-totale autonomie. Je possédais l'aide d'un men
 
 Ce projet fut évalué par un mentor évaluateur OpenClassrooms qui validait si le projet était conforme aux attentes lors d'une soutenance.
 
-Comment nous pouvons le voir je n'étais très à l'aise avec le responsive. C'est pourquoi je vous propose une version améliorée: [réalisée une fois la formation terminée](https://github.com/OTTIN-T/V2-Projet2-Reservia-OCR).
+Comment nous pouvons le voir je n'étais pas très à l'aise avec le responsive et la scalabilité des éléments. C'est pourquoi je vous propose une version améliorée: [réalisée une fois la formation terminée](https://github.com/OTTIN-T/V2-Projet2-Reservia-OCR).
 
 ## Installation
 
