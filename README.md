@@ -7,13 +7,13 @@ Ceci est le projet numéro 2 de la formation développeur web d'OpenClassrooms.
 Le projet consistais à intégrer une maquette uniquement en HTML5/CSS3. 
 La maquette était fournie par OpenClassrooms. Le site devait responsive et valider les validateurs W3C.
 
-Je possédais quelques fondations fragiles en HTML5 et CSS3, que j'ai pu consolider avec ce projet.
+Je possédais quelques fondations fragiles en HTML5 et CSS3 que j'ai pu consolider avec ce projet.
 
 Ce projet fut réalisé en quasi-totale autonomie. Je possédais l'aide d'un mentor OpenClassrooms une fois par semaine. 
 
 Ce projet fut évalué par un mentor évaluateur OpenClassrooms qui validait si le projet était conforme aux attentes lors d'une soutenance.
 
-Retrouvez une version améliorée: [réalisée une fois la formation terminée](https://github.com/OTTIN-T/V2-Projet2-Reservia-OCR).
+Comment nous pouvons le voir je n'étais très à l'aise avec le responsive. C'est pourquoi je vous propose une version améliorée: [réalisée une fois la formation terminée](https://github.com/OTTIN-T/V2-Projet2-Reservia-OCR).
 
 ## Installation
 
