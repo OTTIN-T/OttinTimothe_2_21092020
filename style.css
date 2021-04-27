@@ -494,97 +494,97 @@ button{
 /*--------------------------------------------------------------------------------------------*/
 @font-face{
 	font-family: 'Raleway';
-	src: url('Raleway/Raleway-VariableFont_wght.ttf') format('truetype');
+	src: url('./font/Raleway/Raleway-VariableFont_wght.ttf') format('truetype');
 }
 
 @font-face{
 	font-family: 'RalewayItalic';
-	src: url('Raleway/Raleway-Italic-VariableFont_wght.ttf') format('truetype');
+	src: url('./font/Raleway/Raleway-Italic-VariableFont_wght.ttf') format('truetype');
 }
 
 @font-face{
 	font-family: 'Raleway-Thin';
-	src: url('Raleway/static/Raleway-Thin.ttf') format('truetype');
+	src: url('./font/Raleway/static/Raleway-Thin.ttf') format('truetype');
 }
 
 @font-face{
 	font-family: 'Raleway-ExtraLight';
-	src: url('Raleway/static/Raleway-ExtraLight.ttf') format('truetype');
+	src: url('./font/Raleway/static/Raleway-ExtraLight.ttf') format('truetype');
 }
 
 @font-face{
 	font-family: 'Raleway-Light';
-	src: url('Raleway/static/Raleway-Light.ttf') format('truetype');
+	src: url('./font/Raleway/static/Raleway-Light.ttf') format('truetype');
 }
 
 @font-face{
 	font-family: 'Raleway-Regular';
-	src: url('Raleway/static/Raleway-Regular.ttf') format('truetype');
+	src: url('./font/Raleway/static/Raleway-Regular.ttf') format('truetype');
 }
 
 @font-face{
 	font-family: 'Raleway-Medium';
-	src: url('Raleway/static/Raleway-Medium.ttf') format('truetype');
+	src: url('./font/Raleway/static/Raleway-Medium.ttf') format('truetype');
 }
 
 @font-face{
 	font-family: 'Raleway-SemiBold';
-	src: url('Raleway/static/Raleway-SemiBold.ttf') format('truetype');
+	src: url('./font/Raleway/static/Raleway-SemiBold.ttf') format('truetype');
 }
 
 @font-face{
 	font-family: 'Raleway-Bold';
-	src: url('Raleway/static/Raleway-Bold.ttf') format('truetype');
+	src: url('./font/Raleway/static/Raleway-Bold.ttf') format('truetype');
 }
 
 @font-face{
 	font-family: 'Raleway-ExtraBold';
-	src: url('Raleway/static/Raleway-ExtraBold.ttf') format('truetype');
+	src: url('./font/Raleway/static/Raleway-ExtraBold.ttf') format('truetype');
 }
 @font-face{
 	font-family: 'Raleway-Black';
-	src: url('Raleway/static/Raleway-Black.ttf') format('truetype');
+	src: url('./font/Raleway/static/Raleway-Black.ttf') format('truetype');
 }
 
 @font-face{
 	font-family: 'Raleway-ThinItalic';
-	src: url('Raleway/static/Raleway-ThinItalic.ttf') format('truetype');
+	src: url('./font/Raleway/static/Raleway-ThinItalic.ttf') format('truetype');
 }
 
 @font-face{
 	font-family: 'Raleway-ExtraLightItalic';
-	src: url('Raleway/static/Raleway-ExtraLightItalic.ttf') format('truetype');
+	src: url('./font/Raleway/static/Raleway-ExtraLightItalic.ttf') format('truetype');
 }
 @font-face{
 	font-family: 'Raleway-LightItalic';
-	src: url('Raleway/static/Raleway-LightItalic.ttf') format('truetype');
+	src: url('./font/Raleway/static/Raleway-LightItalic.ttf') format('truetype');
 }
 
 @font-face{
 	font-family: 'Raleway-Italic';
-	src: url('Raleway/static/Raleway-Italic.ttf') format('truetype');
+	src: url('./font/Raleway/static/Raleway-Italic.ttf') format('truetype');
 }
 
 @font-face{
 	font-family: 'Raleway-MediumItalic';
-	src: url('Raleway/static/Raleway-MediumItalic.ttf') format('truetype');
+	src: url('./font/Raleway/static/Raleway-MediumItalic.ttf') format('truetype');
 }
 
 @font-face{
 	font-family: 'Raleway-SemiBoldItalic';
-	src: url('Raleway/static/Raleway-SemiBoldItalic.ttf') format('truetype');
+	src: url('./font/Raleway/static/Raleway-SemiBoldItalic.ttf') format('truetype');
 }
 @font-face{
 	font-family: 'Raleway-BoldItalic';
-	src: url('Raleway/static/Raleway-BoldItalic.ttf') format('truetype');
+	src: url('./font/Raleway/static/Raleway-BoldItalic.ttf') format('truetype');
 }
 
 @font-face{
 	font-family: 'Raleway-ExtraBoldItalic';
-	src: url('Raleway/static/Raleway-ExtraBoldItalic.ttf') format('truetype');
+	src: url('./font/Raleway/static/Raleway-ExtraBoldItalic.ttf') format('truetype');
 }
 
 @font-face{
 	font-family: 'Raleway-BlackItalic';
-	src: url('Raleway/static/Raleway-BlackItalic.ttf') format('truetype');
+	src: url('./font/Raleway/static/Raleway-BlackItalic.ttf') format('truetype');
 }
